@@ -1,0 +1,276 @@
+BiomeDef
+{
+	base_materials
+	{
+		Pair_String_Vector_String
+		{
+			key "ground/misc/biome_material_2"
+			value
+			{
+				String "ground/misc/biome_material_2"
+				String "ground/grass/muddy_grass_02"
+				String "ground/grass/forest_ground_01"
+				String "ground/grass/forest_ground_grass_01"
+				String "ground/moss/moss_01"
+				String "ground/mud/stylized_mud"
+				
+				String "ground/misc/biome_material_0"
+				String "ground/desert/sand_rocks_05"
+				String "ground/desert/desert_cracked_soil_01"
+				String "ground/desert/red_sand_01"
+				String "ground/desert/sand_rocks_02"
+				String "ground/desert/mud_cracked_01"
+				String "ground/desert/soil_02"
+				String "ground/desert/soil_rocky_03"
+				String "ground/magma/magma_ground_15"
+				String "ground/desert/soil_rocky_04"
+				
+				String "ground/acid/acid_ground_16"
+				String "ground/acid/acid_ground_06"
+				String "ground/acid/acid_ground_17"
+				String "ground/acid/acid_ground_20"
+				String "ground/acid/rocks_mud_03"
+				String "ground/acid/acid_ground_26"
+				String "ground/acid/acid_ground_25"
+				
+				String "ground/magma/magma_lava"
+				String "ground/magma/magma_rock_01"
+				String "ground/magma/magma_rock_02"
+				String "ground/magma/magma_ground_12"
+				String "ground/magma/magma_layered_01"
+			}
+
+		}
+
+		Pair_String_Vector_String
+		{
+			key "ground/misc/biome_material_1"
+			value
+			{
+				String "ground/misc/biome_material_1"
+				String "ground/mud/forest_mud_01"
+				String "ground/mud/green_mud"
+				String "ground/pebbles/sand_pebbles"
+				String "ground/mud/forest_mud_02"
+				String "ground/mud/forest_mud_03"
+				
+				String "ground/mud/red_dirt_mud_01"
+				String "ground/rock/coral_mud"
+				String "ground/rock/small_rocks_01"
+				String "ground/rock/rocks_01"
+				String "ground/rock/rocky_ground_01"
+				
+				String "ground/acid/acid_ground_13"
+				String "ground/acid/acid_ground_14"
+				String "ground/acid/rocks_mud_04"
+				String "ground/acid/acid_ground_09"
+				String "ground/acid/acid_ground_12"
+				String "ground/acid/acid_ground_04"
+				
+				String "ground/rock/rocky_dirt"
+				String "ground/magma/magma_gravel"
+				String "ground/magma/magma_dirt_1"
+				String "ground/magma/magma_ground_01"
+				String "ground/magma/magma_ground_04"
+				String "ground/magma/vulcanic_gravel_01"
+			}
+
+		}
+
+		Pair_String_Vector_String
+		{
+			key "ground/misc/biome_material_0"
+			value
+			{
+				String "ground/misc/biome_material_0"
+				String "ground/grass/grass_04"
+				String "ground/grass/grass_15"
+				String "ground/pebbles/brown_pebbles_01"
+				String "ground/groundplants/jungle_roots_04"
+				String "ground/grass/grass_12"
+				String "ground/mud/green_mud_01"
+				
+				String "ground/misc/biome_material_2"
+				String "ground/desert/desert_sand_01"
+				String "ground/desert/small_dunes_03"
+				String "ground/sand/desert_sand_03"
+				String "ground/sand/desert_sand_04"
+				
+				String "ground/acid/rocks_mud_01"
+				String "ground/acid/rocks_mud_02"
+				String "ground/acid/rocks_mud_04"
+				String "ground/acid/acid_big_rocks_puddles"
+				
+				String "ground/misc/biome_material_2"
+				String "ground/mud/cracked_mud_01"
+				String "ground/sand/desert_sand_05"
+				String "ground/sand/desert_sand_07"
+			}
+
+		}
+
+	}
+
+	default_liquid_resource "water_vein"
+	resources "carbon_vein,iron_vein,geothermal_vent,uranium_ore_vein,titanium_vein,palladium_vein,cobalt_vein,water_vein,mud_vein,sludge_vein,magma_vein"
+	icon						"gui/menu/biomes_prev/jungle_prev"
+	icon_with_outpost			"gui/menu/biomes_prev/jungle_base_prev"
+	loading						"gui/menu/loading/jungle"
+	loading_with_outpost        "gui/menu/loading/jungle_outpost"
+
+	root_template
+	{
+		children
+		{
+			EntityTemplate
+			{
+				components
+				{
+					IdComponent
+					{
+						name "main_light"
+					}
+
+					LightDesc
+					{
+						is_shadow_caster "1"
+						light_color
+						{
+							w "13.416"
+							y "0.779"
+							z "0.354"
+						}
+
+						light_size "0.009"
+					}
+
+				}
+
+			}
+
+			EntityTemplate
+			{
+				components
+				{
+					IdComponent
+					{
+						name "skybox"
+					}
+
+					LocalAabbDesc
+					{
+						local_aabb
+						{
+							min
+							{
+								x "-5.100"
+								y "-5.100"
+								z "-5.100"
+							}
+
+							max
+							{
+								x "5.100"
+								y "5.100"
+								z "5.100"
+							}
+
+						}
+
+					}
+
+					MeshDesc
+					{
+						material "pbr/skybox"
+						mesh "meshes/skybox.mesh"
+						renderable_custom_parameters
+						{
+							Params
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+		components
+		{
+			BiomeModificatorComponent
+			{
+				geothermal_power "2.000"
+				solar_power "2.000"
+			}
+			DirectionalWindComponent
+			{
+				factor "0.000"
+				position_frequency_factor "0.001"
+				power_frequency "0.000"
+				power_max "0.000"
+				power_min "0.000"
+				rotation_frequency "0.000"
+				rotation_max "0.000"
+			}
+
+			SceneParamsDesc
+			{
+				bloom_params
+				{
+					max_exposure "0.833"
+					scale "1.030"
+					threshold "0.492"
+				}
+
+				fog_params
+				{
+					color
+					{
+						x "0.521"
+						y "0.855"
+						z "0.920"
+					}
+
+					density "0.283"
+					end "58.708"
+					start "46.177"
+				}
+
+				shadow_params
+				{
+					intensity "1.000"
+				}
+
+				skybox_params
+				{
+					diffuse "materials/textures/skybox/skybox_day_1_diffuse.dds"
+					diffuse_intensity "0.403"
+					environment "materials/textures/skybox/skybox_day_1_env.dds"
+					specular "materials/textures/skybox/skybox_day_1_specular.dds"
+					specular_intensity "0.588"
+					sun_roll "-19.225"
+					sun_yaw "-33.275"
+				}
+
+			}
+
+			TimeOfDayComponent
+			{
+				timeofday_presets
+				{
+					TimeOfDayPresetHolder
+					{
+						resource_name "biomes/jungle/scene_params/jungle.td"
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+

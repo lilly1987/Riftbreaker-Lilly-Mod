@@ -1,0 +1,1 @@
+set camera/perspective/render_collisions "ground_unit|building|building_small"

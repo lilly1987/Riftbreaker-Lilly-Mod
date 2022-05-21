@@ -1,0 +1,54 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/grass/farmland_01"
+		String "ground/grass/forest_ground_01"
+		String "ground/grass/grass_02"
+		String "ground/grass/grass_03"
+		String "ground/grass/grass_04"
+		String "ground/grass/grass_07"
+		String "ground/grass/grass_dead_04"
+		String "ground/magma/lava_01"
+		String "ground/magma/lava_01"
+		String "ground/magma/magma_lava"
+		String "ground/magma/magma_rock_01"
+		String "ground/moss/moss"
+		String "ground/moss/moss_01"
+		String "ground/moss/moss_02"
+		String "ground/mud/forest_mud"
+		String "ground/mud/forest_mud_01"
+		String "ground/mud/forest_mud_02"
+		String "ground/mud/forest_mud_03"
+		String "ground/mud/red_dirt_mud_01"
+		String "ground/mud/soil_mud"
+		String "ground/mud/stylized_mud"
+		String "ground/pebbles/brown_pebbles_01"
+		String "ground/pebbles/sand_pebbles"
+		String "ground/rock/rocks_dirt_01"
+		String "ground/rock/rocky_dirt"
+		String "ground/rock/shore_rock_sand"
+		String "ground/rock/shore_rock_sand_01"
+		String "ground/rock/shore_rock_sand_02"
+		String "ground/sand/desert_sand_03"
+		String "ground/sand/wet_sand"
+	}
+
+	is_hidden "1"
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "0.000"
+			}
+
+		}
+
+	}
+
+}
+

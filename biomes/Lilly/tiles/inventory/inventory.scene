@@ -1,0 +1,1782 @@
+entity_count "25"
+//editor "index(1)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_mech"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_mech"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.996"
+					y "-0.010"
+					z "-2.043"
+				}
+
+				max
+				{
+					x "1.136"
+					y "4.795"
+					z "2.043"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				y "2.036"
+				z "-8.000"
+			}
+
+			world_orientation
+			{
+				w "-0.574"
+				y "0.819"
+			}
+
+			world_position
+			{
+				y "2.036"
+				z "-8.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(14)"
+EntityTemplate
+{
+	base_blueprint "logic/camera_marker"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/camera_marker"
+		}
+
+		IdComponent
+		{
+			name "camera"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-7.076"
+					y "-0.892"
+					z "-0.762"
+				}
+
+				max
+				{
+					x "0.000"
+					y "3.879"
+					z "0.762"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.683"
+				x "-0.184"
+				y "0.683"
+				z "-0.184"
+			}
+
+			position
+			{
+				y "11.630"
+				z "4.540"
+			}
+
+			world_orientation
+			{
+				w "0.683"
+				x "-0.184"
+				y "0.683"
+				z "-0.184"
+			}
+
+			world_position
+			{
+				y "11.630"
+				z "4.540"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6611)"
+EntityTemplate
+{
+	base_blueprint "planet/planet"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet"
+		}
+
+		IdComponent
+		{
+			name "planet"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-10.239"
+					y "-10.243"
+					z "-10.240"
+				}
+
+				max
+				{
+					x "10.239"
+					y "10.243"
+					z "10.240"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "30.000"
+			}
+
+			world_position
+			{
+				y "30.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6612)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/position_marker"
+		}
+
+		IdComponent
+		{
+			name "planetary_scanner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "-1.000"
+			}
+
+			position
+			{
+				x "22.789"
+				y "37.000"
+				z "3.129"
+			}
+
+			world_orientation
+			{
+				w "-0.000"
+				y "-1.000"
+			}
+
+			world_position
+			{
+				x "22.789"
+				y "37.000"
+				z "3.129"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6613)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/position_marker"
+		}
+
+		IdComponent
+		{
+			name "inventory"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.683"
+				x "-0.184"
+				y "0.683"
+				z "-0.184"
+			}
+
+			position
+			{
+				y "11.628"
+				z "4.537"
+			}
+
+			world_orientation
+			{
+				w "0.683"
+				x "-0.184"
+				y "0.683"
+				z "-0.184"
+			}
+
+			world_position
+			{
+				y "11.628"
+				z "4.537"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6614)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "109.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "109.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6618)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "329.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "329.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6619)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "-110.141"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "-103.527"
+				z "-110.141"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6620)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "32.473"
+				z "329.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "32.473"
+				z "329.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6621)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "32.473"
+				z "109.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "32.473"
+				z "109.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6622)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "32.473"
+				z "-110.141"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "32.473"
+				z "-110.141"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6623)"
+EntityTemplate
+{
+	base_blueprint "logic/position_marker"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/position_marker"
+		}
+
+		IdComponent
+		{
+			name "relative_point"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.804"
+					y "-1.804"
+					z "-1.804"
+				}
+
+				max
+				{
+					x "1.804"
+					y "1.804"
+					z "1.804"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "-1.000"
+			}
+
+			position
+			{
+				x "8.053"
+				y "35.184"
+				z "2.067"
+			}
+
+			world_orientation
+			{
+				w "-0.000"
+				y "-1.000"
+			}
+
+			world_position
+			{
+				x "8.053"
+				y "35.184"
+				z "2.067"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6626)"
+EntityTemplate
+{
+	base_blueprint "effects/misc/cosmic_dust"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "effects/misc/cosmic_dust"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			position
+			{
+				x "-46.000"
+				y "16.000"
+				z "2.000"
+			}
+
+			world_orientation
+			{
+				w "0.707"
+				y "-0.707"
+			}
+
+			world_position
+			{
+				x "-46.000"
+				y "16.000"
+				z "2.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6628)"
+EntityTemplate
+{
+	base_blueprint "effects/misc/sun"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "effects/misc/sun"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "-12.000"
+				y "35.260"
+				z "3.347"
+			}
+
+			world_orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			world_position
+			{
+				x "-12.000"
+				y "35.260"
+				z "3.347"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6630)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "165.496"
+				z "329.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "165.496"
+				z "329.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6631)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "165.496"
+				z "109.859"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "165.496"
+				z "109.859"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6632)"
+EntityTemplate
+{
+	base_blueprint "planet/planet_bg"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "planet/planet_bg"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			position
+			{
+				x "-147.726"
+				y "165.496"
+				z "-110.141"
+			}
+
+			scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+			world_orientation
+			{
+				w "0.500"
+				x "-0.500"
+				y "-0.500"
+				z "-0.500"
+			}
+
+			world_position
+			{
+				x "-147.726"
+				y "165.496"
+				z "-110.141"
+			}
+
+			world_scale
+			{
+				x "220.000"
+				z "136.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6633)"
+EntityTemplate
+{
+	base_blueprint "effects/misc/cosmic_ring"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "effects/misc/cosmic_ring"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				y "30.000"
+			}
+
+			world_position
+			{
+				y "30.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6635)"
+EntityTemplate
+{
+	base_blueprint "misc/quad_black_metal"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "misc/quad_black_metal"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-10.000"
+					y "-0.000"
+					z "-10.000"
+				}
+
+				max
+				{
+					x "10.000"
+					y "1.000"
+					z "10.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-0.183"
+				y "-0.990"
+				z "-0.386"
+			}
+
+			scale
+			{
+				x "6.392"
+				z "6.714"
+			}
+
+			world_position
+			{
+				x "-0.183"
+				y "-0.990"
+				z "-0.386"
+			}
+
+			world_scale
+			{
+				x "6.392"
+				z "6.714"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6641)"
+EntityTemplate
+{
+	base_blueprint "inventory/steam_big"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "inventory/steam_big"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-6.739"
+				y "2.689"
+				z "-8.524"
+			}
+
+			world_position
+			{
+				x "-6.739"
+				y "2.689"
+				z "-8.524"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6643)"
+EntityTemplate
+{
+	base_blueprint "inventory/steam_big"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "inventory/steam_big"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-6.920"
+				y "2.689"
+				z "-11.331"
+			}
+
+			world_position
+			{
+				x "-6.920"
+				y "2.689"
+				z "-11.331"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6644)"
+EntityTemplate
+{
+	base_blueprint "inventory/steam_big"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "inventory/steam_big"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.257"
+				y "1.844"
+				z "-6.715"
+			}
+
+			world_position
+			{
+				x "5.257"
+				y "1.844"
+				z "-6.715"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6645)"
+EntityTemplate
+{
+	base_blueprint "inventory/steam_big"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "inventory/steam_big"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.560"
+				y "3.594"
+				z "-9.255"
+			}
+
+			world_position
+			{
+				x "3.560"
+				y "3.594"
+				z "-9.255"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6652)"
+EntityTemplate
+{
+	base_blueprint "inventory/ambient"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "inventory/ambient"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.562"
+					y "-2.475"
+					z "-2.475"
+				}
+
+				max
+				{
+					x "2.562"
+					y "2.475"
+					z "2.475"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "0.855"
+				y "2.542"
+				z "-11.802"
+			}
+
+			scale
+			{
+				x "0.500"
+				y "0.500"
+				z "0.500"
+			}
+
+			world_position
+			{
+				x "0.855"
+				y "2.542"
+				z "-11.802"
+			}
+
+			world_scale
+			{
+				x "0.500"
+				y "0.500"
+				z "0.500"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(6655)"
+EntityTemplate
+{
+	base_blueprint "lights/point/inventory"
+	children
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "lights/point/inventory"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.967"
+					y "-0.967"
+					z "-0.000"
+				}
+
+				max
+				{
+					x "0.967"
+					y "0.967"
+					z "2.675"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-1.029"
+				y "8.488"
+				z "-3.452"
+			}
+
+			world_position
+			{
+				x "-1.029"
+				y "8.488"
+				z "-3.452"
+			}
+
+		}
+
+	}
+
+}
+

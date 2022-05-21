@@ -1,0 +1,8 @@
+set scene/entity/1024/visible_mask "2"
+set scene/entity/1025/visible_mask "2"
+set scene/entity/1026/visible_mask "2"
+set scene/entity/1027/visible_mask "2"
+set scene/entity/2/visible_mask "2"
+set scene/entity/894/visible_mask "2"
+set scene/entity/895/visible_mask "2"
+set scene/entity/896/visible_mask "2"
