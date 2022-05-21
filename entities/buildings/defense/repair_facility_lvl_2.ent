@@ -44,14 +44,14 @@ EntityBlueprint
 			cone_effect			string:"build_cone_3x3"
 			cone_effect_sell	string:"sell_big"
 			interval			float:"1"
-			heal_radius			float:"400"
+			heal_radius			float:"250"
 			heal_amount			float:"25"
 			energy_cost			float:"10"
 
 			drone_search_radius		float:"100" 
 			drone_blueprint		string:"units/drones/drone_repair_facility_lvl_2"
 			drone_attachments	string:"att_landing"
-			drone_per_spot		int:"10"
+			drone_per_spot		int:"12"
 			drone_visible_on_spot 	int:"0"
 
 			display_radius_blueprint string:"effects/decals/range_circle_repair"

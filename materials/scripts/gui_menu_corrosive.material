@@ -1,0 +1,6 @@
+import * from "materials/scripts/gui.material"
+
+material gui/menu/biomes_prev/corrosive : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/menu/biomes_prev/corrosive.dds
+}

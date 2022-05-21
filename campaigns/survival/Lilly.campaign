@@ -1,0 +1,14 @@
+CampaignDef
+{
+	campaign_type				 "survival"
+    startup_mission_def          "survival/Lilly"
+	startup_mission_name		 "Headquarters"
+	
+	research_tree				 "research_tree_survival"
+	building_cost_info			 "survival"
+
+	
+	achievements_group			 "survival"
+	
+	order "5"
+}

@@ -1,0 +1,7066 @@
+entity_count "129"
+//editor "index(20)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_resources"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "86.745"
+				y "-0.000"
+				z "-49.575"
+			}
+
+			scale
+			{
+				x "10.433"
+				y "3.000"
+				z "9.710"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(21)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "89.328"
+				y "-0.004"
+				z "-49.874"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(22)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "83.547"
+				y "-0.004"
+				z "-51.202"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(23)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "85.987"
+				y "-0.004"
+				z "-47.753"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1118)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.696"
+				y "-0.718"
+			}
+
+			position
+			{
+				x "70.445"
+				y "-0.004"
+				z "25.774"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1119)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_resources"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.696"
+				y "-0.718"
+			}
+
+			position
+			{
+				x "70.224"
+				y "-0.000"
+				z "23.184"
+			}
+
+			scale
+			{
+				x "10.433"
+				y "3.000"
+				z "7.140"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1120)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.696"
+				y "-0.718"
+			}
+
+			position
+			{
+				x "68.722"
+				y "-0.004"
+				z "21.486"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1121)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.696"
+				y "-0.718"
+			}
+
+			position
+			{
+				x "71.945"
+				y "-0.004"
+				z "20.036"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(1941)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-14.203"
+				z "61.778"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2006)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_resources_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "88.811"
+				y "0.050"
+				z "-40.126"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2011)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "113.354"
+				y "-1.000"
+				z "22.065"
+			}
+
+			scale
+			{
+				x "39.056"
+				z "43.641"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2012)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "174.670"
+				y "-1.000"
+				z "-31.629"
+			}
+
+			scale
+			{
+				x "34.021"
+				z "54.843"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2013)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "-19.657"
+				y "-1.000"
+				z "28.878"
+			}
+
+			scale
+			{
+				x "65.136"
+				z "57.234"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2014)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "43.879"
+				y "-1.000"
+				z "4.492"
+			}
+
+			scale
+			{
+				x "65.136"
+				z "50.166"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2015)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "106.915"
+				y "-1.000"
+				z "-8.589"
+			}
+
+			scale
+			{
+				x "65.136"
+				z "54.364"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2016)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_resource_mud"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_resource_mud"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-0.500"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "0.500"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				y "-0.000"
+			}
+
+			position
+			{
+				x "149.928"
+				y "-1.000"
+				z "-23.755"
+			}
+
+			scale
+			{
+				x "34.021"
+				z "48.239"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2017)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.681"
+					y "-1.398"
+					z "-9.938"
+				}
+
+				max
+				{
+					x "5.441"
+					y "9.857"
+					z "7.023"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.991"
+				y "0.131"
+			}
+
+			position
+			{
+				x "122.958"
+				y "6.386"
+				z "-31.858"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2018)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.419"
+					y "-3.248"
+					z "-4.317"
+				}
+
+				max
+				{
+					x "4.545"
+					y "12.301"
+					z "3.653"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.000"
+				x "0.011"
+				y "0.130"
+				z "0.991"
+			}
+
+			position
+			{
+				x "118.820"
+				y "5.716"
+				z "-36.470"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2019)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.800"
+					y "-2.524"
+					z "-8.375"
+				}
+
+				max
+				{
+					x "7.424"
+					y "7.374"
+					z "6.262"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.940"
+				y "0.342"
+			}
+
+			position
+			{
+				x "124.208"
+				y "-0.940"
+				z "-30.442"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2021)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.993"
+					y "-1.304"
+					z "-3.466"
+				}
+
+				max
+				{
+					x "2.738"
+					y "1.277"
+					z "3.628"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "124.612"
+				y "4.923"
+				z "-28.362"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2022)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.800"
+					y "-2.524"
+					z "-8.375"
+				}
+
+				max
+				{
+					x "7.424"
+					y "7.374"
+					z "6.262"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.620"
+				x "0.007"
+				y "0.432"
+				z "0.655"
+			}
+
+			position
+			{
+				x "114.345"
+				y "2.650"
+				z "-40.209"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2023)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.535"
+					y "-5.292"
+					z "-4.971"
+				}
+
+				max
+				{
+					x "3.790"
+					y "6.312"
+					z "4.730"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "108.888"
+				y "0.050"
+				z "-48.092"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2024)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.535"
+					y "-5.292"
+					z "-4.971"
+				}
+
+				max
+				{
+					x "3.790"
+					y "6.312"
+					z "4.730"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.547"
+				x "-0.424"
+				y "0.484"
+				z "-0.536"
+			}
+
+			position
+			{
+				x "113.118"
+				y "6.311"
+				z "-44.390"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2025)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_04"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_04"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.616"
+					y "-1.920"
+					z "-4.448"
+				}
+
+				max
+				{
+					x "2.905"
+					y "9.377"
+					z "5.426"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "0.609"
+			}
+
+			position
+			{
+				x "116.957"
+				y "7.000"
+				z "-38.875"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2026)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.516"
+					y "-2.183"
+					z "-3.316"
+				}
+
+				max
+				{
+					x "2.745"
+					y "1.909"
+					z "3.252"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.866"
+				y "0.500"
+			}
+
+			position
+			{
+				x "114.103"
+				y "0.050"
+				z "-32.731"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2027)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.516"
+					y "-2.183"
+					z "-3.316"
+				}
+
+				max
+				{
+					x "2.745"
+					y "1.909"
+					z "3.252"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.037"
+				x "-0.477"
+				y "0.843"
+				z "0.248"
+			}
+
+			position
+			{
+				x "104.140"
+				y "0.100"
+				z "-43.288"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2028)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.516"
+					y "-2.183"
+					z "-3.316"
+				}
+
+				max
+				{
+					x "2.745"
+					y "1.909"
+					z "3.252"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.718"
+				x "-0.591"
+				y "0.261"
+				z "-0.258"
+			}
+
+			position
+			{
+				x "108.618"
+				y "0.100"
+				z "-34.428"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2029)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_05"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_05"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.754"
+					y "-3.644"
+					z "-4.180"
+				}
+
+				max
+				{
+					x "8.535"
+					y "3.303"
+					z "3.245"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.668"
+				x "0.286"
+				y "0.312"
+				z "0.612"
+			}
+
+			position
+			{
+				x "123.594"
+				y "-0.488"
+				z "-60.057"
+			}
+
+			scale
+			{
+				x "1.297"
+				y "1.297"
+				z "1.297"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2030)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_05"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_05"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.754"
+					y "-3.644"
+					z "-4.180"
+				}
+
+				max
+				{
+					x "8.535"
+					y "3.303"
+					z "3.245"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.557"
+				x "0.363"
+				y "-0.450"
+				z "0.597"
+			}
+
+			position
+			{
+				x "110.741"
+				y "4.389"
+				z "-53.192"
+			}
+
+			scale
+			{
+				x "1.297"
+				y "1.297"
+				z "1.297"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2031)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_06"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_06"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.959"
+					y "-9.766"
+					z "-6.628"
+				}
+
+				max
+				{
+					x "4.381"
+					y "8.550"
+					z "2.986"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "119.869"
+				y "1.792"
+				z "-55.985"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2032)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.493"
+					y "-5.174"
+					z "-3.944"
+				}
+
+				max
+				{
+					x "2.721"
+					y "5.711"
+					z "4.334"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.883"
+				x "0.188"
+				y "-0.428"
+				z "-0.045"
+			}
+
+			position
+			{
+				x "113.722"
+				y "3.595"
+				z "-55.750"
+			}
+
+			scale
+			{
+				x "1.194"
+				y "1.194"
+				z "1.194"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2033)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "111.517"
+				y "0.050"
+				z "-58.801"
+			}
+
+			scale
+			{
+				x "0.766"
+				y "0.766"
+				z "0.766"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2034)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.619"
+					y "-3.526"
+					z "-1.552"
+				}
+
+				max
+				{
+					x "1.589"
+					y "3.837"
+					z "1.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.644"
+				x "-0.222"
+				y "0.203"
+				z "-0.703"
+			}
+
+			position
+			{
+				x "115.832"
+				y "0.050"
+				z "-61.419"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2035)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.681"
+					y "-1.398"
+					z "-9.938"
+				}
+
+				max
+				{
+					x "5.441"
+					y "9.857"
+					z "7.023"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.676"
+				x "-0.010"
+				y "0.117"
+				z "-0.727"
+			}
+
+			position
+			{
+				x "130.461"
+				y "2.025"
+				z "-53.476"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2036)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.942"
+				x "-0.075"
+				y "-0.307"
+				z "0.111"
+			}
+
+			position
+			{
+				x "127.655"
+				y "4.336"
+				z "-57.216"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2037)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.419"
+					y "-3.248"
+					z "-4.317"
+				}
+
+				max
+				{
+					x "4.545"
+					y "12.301"
+					z "3.653"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "136.122"
+				y "0.050"
+				z "-46.891"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2038)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.419"
+					y "-3.248"
+					z "-4.317"
+				}
+
+				max
+				{
+					x "4.545"
+					y "12.301"
+					z "3.653"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.674"
+				x "0.674"
+				y "-0.213"
+				z "0.213"
+			}
+
+			position
+			{
+				x "135.636"
+				y "0.050"
+				z "-42.402"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2039)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_04"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.535"
+					y "-5.292"
+					z "-4.971"
+				}
+
+				max
+				{
+					x "3.790"
+					y "6.312"
+					z "4.730"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.572"
+				x "0.746"
+				y "-0.208"
+				z "0.271"
+			}
+
+			position
+			{
+				x "131.479"
+				y "4.746"
+				z "-38.875"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2040)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.289"
+					y "-4.759"
+					z "-5.018"
+				}
+
+				max
+				{
+					x "6.270"
+					y "5.218"
+					z "3.089"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.793"
+				y "0.609"
+			}
+
+			position
+			{
+				x "135.379"
+				y "4.799"
+				z "-43.669"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2041)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.040"
+				x "0.905"
+				y "-0.018"
+				z "0.422"
+			}
+
+			position
+			{
+				x "132.234"
+				y "7.000"
+				z "-52.186"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2042)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.619"
+					y "-3.526"
+					z "-1.552"
+				}
+
+				max
+				{
+					x "1.589"
+					y "3.837"
+					z "1.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "140.471"
+				y "0.050"
+				z "-43.305"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2043)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.619"
+					y "-3.526"
+					z "-1.552"
+				}
+
+				max
+				{
+					x "1.589"
+					y "3.837"
+					z "1.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.087"
+				x "-0.996"
+			}
+
+			position
+			{
+				x "96.863"
+				y "-0.916"
+				z "-58.161"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2044)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.800"
+					y "-2.524"
+					z "-8.375"
+				}
+
+				max
+				{
+					x "7.424"
+					y "7.374"
+					z "6.262"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "100.309"
+				y "0.050"
+				z "-48.917"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2045)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.289"
+					y "-4.759"
+					z "-5.018"
+				}
+
+				max
+				{
+					x "6.270"
+					y "5.218"
+					z "3.089"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "131.202"
+				y "-1.430"
+				z "-27.597"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2046)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.500"
+				y "-0.866"
+			}
+
+			position
+			{
+				x "120.739"
+				y "-3.327"
+				z "-24.710"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2047)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.991"
+				y "0.131"
+			}
+
+			position
+			{
+				x "96.938"
+				y "-2.556"
+				z "-43.300"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2048)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.955"
+				y "0.298"
+			}
+
+			position
+			{
+				x "94.761"
+				z "-56.755"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2049)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.977"
+				y "0.214"
+			}
+
+			position
+			{
+				x "93.673"
+				y "0.050"
+				z "-45.592"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2050)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.388"
+				y "-0.921"
+			}
+
+			position
+			{
+				x "100.954"
+				y "0.050"
+				z "-40.869"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2051)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.018"
+				y "-1.000"
+			}
+
+			position
+			{
+				x "107.263"
+				y "0.050"
+				z "-33.340"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2052)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.168"
+				y "0.986"
+			}
+
+			position
+			{
+				x "109.822"
+				y "0.050"
+				z "-60.999"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2053)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.154"
+				y "-0.988"
+			}
+
+			position
+			{
+				x "129.120"
+				y "0.050"
+				z "-62.725"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2054)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.765"
+				y "-0.643"
+			}
+
+			position
+			{
+				x "139.453"
+				y "0.050"
+				z "-51.457"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2055)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.298"
+				y "-0.954"
+			}
+
+			position
+			{
+				x "141.756"
+				y "0.050"
+				z "-42.607"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2056)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.851"
+				y "-0.524"
+			}
+
+			position
+			{
+				x "134.843"
+				y "0.041"
+				z "-33.942"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2057)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.748"
+				y "0.664"
+			}
+
+			position
+			{
+				x "139.407"
+				y "0.050"
+				z "-38.515"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2058)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.997"
+				y "-0.075"
+			}
+
+			position
+			{
+				x "138.776"
+				y "0.100"
+				z "-53.698"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2059)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.702"
+				y "-0.712"
+			}
+
+			position
+			{
+				x "131.292"
+				y "0.100"
+				z "-61.410"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2060)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "120.234"
+				y "0.100"
+				z "-62.714"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2061)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.581"
+				y "0.814"
+			}
+
+			position
+			{
+				x "102.758"
+				y "0.100"
+				z "-56.898"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2062)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.155"
+				y "0.988"
+			}
+
+			position
+			{
+				x "93.646"
+				y "0.100"
+				z "-50.848"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2063)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.993"
+				y "0.116"
+			}
+
+			position
+			{
+				x "94.811"
+				y "0.100"
+				z "-40.467"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2064)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.026"
+				y "1.000"
+			}
+
+			position
+			{
+				x "104.398"
+				y "0.100"
+				z "-36.860"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2065)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.227"
+				y "0.974"
+			}
+
+			position
+			{
+				x "111.368"
+				y "0.100"
+				z "-30.403"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2066)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.977"
+				y "-0.214"
+			}
+
+			position
+			{
+				x "117.483"
+				y "-0.299"
+				z "-24.400"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2067)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.508"
+				y "0.861"
+			}
+
+			position
+			{
+				x "129.565"
+				y "-0.299"
+				z "-25.499"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2069)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.070"
+					y "-0.411"
+					z "-2.063"
+				}
+
+				max
+				{
+					x "2.077"
+					y "0.532"
+					z "2.034"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.961"
+				y "-0.275"
+			}
+
+			position
+			{
+				x "140.825"
+				z "-47.736"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2070)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.070"
+					y "-0.411"
+					z "-2.063"
+				}
+
+				max
+				{
+					x "2.077"
+					y "0.532"
+					z "2.034"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.529"
+				y "-0.849"
+			}
+
+			position
+			{
+				x "135.732"
+				y "0.050"
+				z "-58.311"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2071)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.993"
+					y "-1.304"
+					z "-3.466"
+				}
+
+				max
+				{
+					x "2.738"
+					y "1.277"
+					z "3.628"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.940"
+				y "0.342"
+			}
+
+			position
+			{
+				x "100.564"
+				y "7.951"
+				z "-50.328"
+			}
+
+			scale
+			{
+				x "0.753"
+				y "0.753"
+				z "0.753"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2073)"
+EntityTemplate
+{
+	base_blueprint "volumes/building_blocker"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "volumes/building_blocker"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.500"
+					y "-5.000"
+					z "-0.500"
+				}
+
+				max
+				{
+					x "0.500"
+					y "5.000"
+					z "0.500"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "123.028"
+				y "7.000"
+				z "-47.270"
+			}
+
+			scale
+			{
+				x "20.111"
+				z "19.294"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2074)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_objective"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "47.423"
+				y "0.050"
+				z "-20.956"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2076)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "134.565"
+				y "-0.004"
+				z "6.418"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2077)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "128.784"
+				y "-0.004"
+				z "5.090"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2078)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "131.224"
+				y "-0.004"
+				z "8.539"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2079)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_resources"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "131.982"
+				y "-0.000"
+				z "6.717"
+			}
+
+			scale
+			{
+				x "10.433"
+				y "3.000"
+				z "9.710"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2080)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "158.436"
+				y "-0.004"
+				z "-53.860"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2081)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "152.655"
+				y "-0.004"
+				z "-55.188"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2082)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "155.095"
+				y "-0.004"
+				z "-51.739"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2083)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_resources"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.707"
+				y "0.707"
+			}
+
+			position
+			{
+				x "155.853"
+				y "-0.000"
+				z "-53.561"
+			}
+
+			scale
+			{
+				x "10.433"
+				y "3.000"
+				z "9.710"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2084)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "1.000"
+			}
+
+			position
+			{
+				x "-45.104"
+				y "-0.004"
+				z "-27.061"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2085)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "1.000"
+			}
+
+			position
+			{
+				x "-48.553"
+				y "-0.004"
+				z "-24.621"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2086)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_placement"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_placement"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.000"
+					y "-3.000"
+					z "-3.000"
+				}
+
+				max
+				{
+					x "3.000"
+					y "3.000"
+					z "3.000"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "1.000"
+			}
+
+			position
+			{
+				x "-47.225"
+				y "-0.004"
+				z "-30.402"
+			}
+
+			scale
+			{
+				x "0.642"
+				z "0.507"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2087)"
+EntityTemplate
+{
+	base_blueprint "resources/volume_random_resources"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "resources/volume_random_resources"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "-0.000"
+				y "1.000"
+			}
+
+			position
+			{
+				x "-46.926"
+				y "-0.000"
+				z "-27.819"
+			}
+
+			scale
+			{
+				x "10.433"
+				y "3.000"
+				z "9.710"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2088)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-55.570"
+				y "0.050"
+				z "55.731"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2089)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "3.691"
+				y "0.100"
+				z "-38.918"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2090)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-51.316"
+				y "0.100"
+				z "-5.882"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2091)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "79.738"
+				y "0.100"
+				z "-57.363"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2092)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "183.976"
+				y "0.100"
+				z "-14.767"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2093)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_regular_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_regular_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "151.040"
+				y "0.100"
+				z "57.195"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2094)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_neutral_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-12.853"
+				y "0.050"
+				z "58.291"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2095)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_neutral_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-45.212"
+				y "0.050"
+				z "-42.326"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2096)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_neutral_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-16.924"
+				y "0.050"
+				z "-18.941"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2097)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_neutral_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "38.376"
+				y "0.050"
+				z "-58.129"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2098)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_neutral_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_neutral_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "186.866"
+				y "0.050"
+				z "30.148"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2099)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_06"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_06"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.959"
+					y "-9.766"
+					z "-6.628"
+				}
+
+				max
+				{
+					x "4.381"
+					y "8.550"
+					z "2.986"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-56.034"
+				y "0.023"
+				z "-53.723"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2100)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.493"
+					y "-5.174"
+					z "-3.944"
+				}
+
+				max
+				{
+					x "2.721"
+					y "5.711"
+					z "4.334"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.940"
+				x "0.108"
+				y "0.281"
+				z "-0.160"
+			}
+
+			position
+			{
+				x "-60.754"
+				z "-53.311"
+			}
+
+			scale
+			{
+				x "0.953"
+				y "0.953"
+				z "0.953"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2101)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.619"
+					y "-3.526"
+					z "-1.552"
+				}
+
+				max
+				{
+					x "1.589"
+					y "3.837"
+					z "1.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.644"
+				x "-0.222"
+				y "0.203"
+				z "-0.703"
+			}
+
+			position
+			{
+				x "-60.071"
+				y "0.100"
+				z "-59.157"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2102)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "-57.530"
+				y "0.150"
+				z "-49.269"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2103)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "-62.226"
+				y "0.150"
+				z "-51.116"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2104)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "-61.492"
+				y "0.150"
+				z "-60.644"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2105)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "-54.667"
+				y "0.150"
+				z "-60.251"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2106)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.911"
+				y "-0.413"
+			}
+
+			position
+			{
+				x "-52.190"
+				y "0.150"
+				z "-52.748"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2107)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.154"
+				y "-0.988"
+			}
+
+			position
+			{
+				x "-56.736"
+				y "0.100"
+				z "-61.328"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2108)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_01"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.895"
+					y "-0.450"
+					z "-2.164"
+				}
+
+				max
+				{
+					x "2.579"
+					y "0.571"
+					z "2.838"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.154"
+				y "-0.988"
+			}
+
+			position
+			{
+				x "-55.052"
+				y "0.100"
+				z "-48.858"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2110)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_player"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "14.112"
+				y "0.050"
+				z "-21.886"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2111)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_player"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "90.439"
+				y "0.100"
+				z "-36.721"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2112)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_player"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "128.869"
+				y "0.150"
+				z "48.402"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2113)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_player"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "67.097"
+				y "0.200"
+				z "23.061"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2114)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_player"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_player"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.472"
+					y "-0.000"
+					z "-1.639"
+				}
+
+				max
+				{
+					x "1.579"
+					y "4.082"
+					z "1.639"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-49.936"
+				y "0.200"
+				z "25.771"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2115)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_resources_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "147.007"
+				y "0.050"
+				z "-48.884"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2116)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_resources_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_resources_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-58.153"
+				y "0.100"
+				z "-43.589"
+			}
+
+			scale
+			{
+				x "10.000"
+				y "2.000"
+				z "10.000"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2117)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_objective"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_objective"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-5.937"
+					y "-0.141"
+					z "-6.620"
+				}
+
+				max
+				{
+					x "6.075"
+					y "10.933"
+					z "4.913"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "150.331"
+				y "0.100"
+				z "17.432"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2118)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-61.261"
+				y "0.050"
+				z "-6.783"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2119)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "5.035"
+				y "0.050"
+				z "-61.670"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2120)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "76.067"
+				y "0.050"
+				z "-61.529"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2121)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "190.063"
+				y "0.050"
+				z "19.284"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2122)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "136.316"
+				y "0.050"
+				z "61.485"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2123)"
+EntityTemplate
+{
+	base_blueprint "logic/spawn_enemy"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "logic/spawn_enemy"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-1.223"
+					y "-0.000"
+					z "-0.440"
+				}
+
+				max
+				{
+					x "2.042"
+					y "2.994"
+					z "0.440"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-61.261"
+				y "0.050"
+				z "44.880"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2124)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_liquid_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "-33.286"
+				y "0.100"
+				z "37.296"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2125)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_liquid_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "31.801"
+				y "0.100"
+				z "-4.869"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2126)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_liquid_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "110.010"
+				y "0.100"
+				z "12.904"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2127)"
+EntityTemplate
+{
+	base_blueprint "units/spawner/volume_liquid_units_spawner"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "units/spawner/volume_liquid_units_spawner"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-0.510"
+					y "-0.510"
+					z "-0.510"
+				}
+
+				max
+				{
+					x "0.510"
+					y "0.510"
+					z "0.510"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "160.837"
+				y "0.100"
+				z "-32.323"
+			}
+
+			scale
+			{
+				x "12.045"
+				y "2.000"
+				z "11.929"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2128)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_big_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.419"
+					y "-3.248"
+					z "-4.317"
+				}
+
+				max
+				{
+					x "4.545"
+					y "12.301"
+					z "3.653"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			position
+			{
+				x "94.541"
+				y "-2.000"
+				z "-7.359"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2129)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_03"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-4.376"
+					y "-1.456"
+					z "-3.089"
+				}
+
+				max
+				{
+					x "4.376"
+					y "6.474"
+					z "3.168"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.087"
+				y "0.996"
+			}
+
+			position
+			{
+				x "93.413"
+				y "-2.965"
+				z "-4.049"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2130)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_medium_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.289"
+					y "-4.759"
+					z "-5.018"
+				}
+
+				max
+				{
+					x "6.270"
+					y "5.218"
+					z "3.089"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.574"
+				y "0.819"
+			}
+
+			position
+			{
+				x "100.228"
+				y "-1.430"
+				z "-7.824"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2131)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_small_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-2.516"
+					y "-2.183"
+					z "-3.316"
+				}
+
+				max
+				{
+					x "2.745"
+					y "1.909"
+					z "3.252"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.537"
+				y "0.843"
+			}
+
+			position
+			{
+				x "93.656"
+				y "-0.020"
+				z "-10.536"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2132)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.977"
+				y "-0.214"
+			}
+
+			position
+			{
+				x "95.649"
+				y "-0.445"
+				z "-11.053"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2133)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.977"
+				y "-0.214"
+			}
+
+			position
+			{
+				x "89.989"
+				y "-0.445"
+				z "-5.918"
+			}
+
+		}
+
+	}
+
+}
+
+//editor "index(2134)"
+EntityTemplate
+{
+	base_blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+	components
+	{
+		BlueprintDesc
+		{
+			blueprint "props/rocks/cliff_mossy/cliff_mossy_debris_02"
+		}
+
+		LocalAabbDesc
+		{
+			local_aabb
+			{
+				min
+				{
+					x "-3.083"
+					y "-0.588"
+					z "-4.071"
+				}
+
+				max
+				{
+					x "4.616"
+					y "0.367"
+					z "3.848"
+				}
+
+			}
+
+		}
+
+		TransformComponent
+		{
+			orientation
+			{
+				w "0.607"
+				y "0.795"
+			}
+
+			position
+			{
+				x "98.126"
+				y "-0.445"
+				z "-3.655"
+			}
+
+		}
+
+	}
+
+}
+

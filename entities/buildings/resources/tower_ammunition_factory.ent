@@ -16,7 +16,7 @@ EntityBlueprint
 		require 			"headquarters"
 		upgrade				"buildings/resources/tower_ammunition_factory_lvl_2"
 		menu_action 		"manufacturing"
-		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+		//exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
 				
 		costs
 		{

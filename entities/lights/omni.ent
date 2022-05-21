@@ -1,0 +1,473 @@
+//! Various omni lights to light up the night. - akee
+
+//< Yellow.
+EntityBlueprint
+{
+	name lights/omni/yellow_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.8"
+			z "0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/yellow
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.8"
+			z "0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/yellow_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.8"
+			z "0"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Cyan.
+EntityBlueprint
+{
+	name lights/omni/cyan_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0.5"
+			z "1"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/cyan
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0.5"
+			z "1"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/cyan_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0.5"
+			z "1"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Orange.
+EntityBlueprint
+{
+	name lights/omni/orange_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.25"
+			z "0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/orange
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.25"
+			z "0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/orange_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.25"
+			z "0"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Red.
+EntityBlueprint
+{
+	name lights/omni/red_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "1.0"
+			y "0"
+			z "0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "20"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/red
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "1.0"
+			y "0"
+			z "0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/red_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "1.0"
+			y "0"
+			z "0"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Green.
+EntityBlueprint
+{
+	name lights/omni/green_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "1.0"
+			z "0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "15"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/green
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "1.0"
+			z "0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/green_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "1.0"
+			z "0"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Lime.
+EntityBlueprint
+{
+	name lights/omni/lime_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.5"
+			y "1.0"
+			z "0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "15"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/lime
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.5"
+			y "1.0"
+			z "0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/lime_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.5"
+			y "1.0"
+			z "0"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>
+
+//< Blue.
+EntityBlueprint
+{
+	name lights/omni/blue_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0"
+			z "1.0"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "25"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/blue
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0"
+			z "1.0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/blue_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0"
+			y "0"
+			z "1.0"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+//>
+
+//< White.
+EntityBlueprint
+{
+	name lights/omni/white_bright
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.9"
+			z "0.9"
+			w "200.0"
+		}
+    light_size 0.001
+		light_range "10"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/white
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.9"
+			z "0.9"
+			w "100.0"
+		}
+    light_size 0.001
+		light_range "5"
+	}
+}
+
+EntityBlueprint
+{
+	name lights/omni/white_dim
+
+	LightDesc
+	{
+		type "0"
+		light_color
+		{
+			x "0.9"
+			y "0.9"
+			z "0.9"
+			w "50.0"
+		}
+    light_size 0.001
+		light_range "3"
+	}
+}
+//>

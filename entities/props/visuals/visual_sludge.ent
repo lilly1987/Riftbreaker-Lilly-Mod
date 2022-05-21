@@ -1,0 +1,21 @@
+//! Used as a blueprint visual to display sloping sludge. - akee
+EntityBlueprint
+{
+  name "props/visuals/visual_sludge"
+
+  MeshDesc
+  {
+    mesh "meshes/cube.mesh"
+    material "resources/resource_sludge"
+  }
+
+  SceneEditorDesc
+  {
+    initial_scale
+    {
+      x "10.0"
+      y "3.0"
+      z "10.0"
+    }
+  }
+}

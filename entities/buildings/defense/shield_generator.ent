@@ -62,7 +62,7 @@ EntityBlueprint
 		{
 			cone_effect			string:"build_cone_3x3"
 			cone_effect_sell	string:"sell_big"
-			radius				float:"40"
+			radius				float:"80"
 			shield_bp			string:"buildings/defense/shield_generator/shield"
 		}
 				
@@ -421,7 +421,7 @@ EntityBlueprint
 
 	DisplayRadiusDesc
 	{
-		max_radius 20
+		max_radius 80
 	}
 
 	EffectDesc

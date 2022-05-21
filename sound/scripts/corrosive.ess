@@ -1,0 +1,71 @@
+//! Used in corrosive_tree tile. - akee
+sound ambient/forest_wind
+{
+  random_file
+  {
+    audio_file  sound/samples/ambient/forest_wind.ogg
+  }
+	
+  gain  0.7
+  looping 1
+  streaming 1
+  instance_limit  2
+
+  freq_ratio_spread 0.1
+
+  group "ambient"
+  rolloffFactor 10
+  referenceDistance 50
+
+  description "forrest wind sound"
+  notes ""
+  status  "beta"
+}
+
+//! Used in corrosive_shrooms tile. - akee
+sound ambient/just_rain
+{
+  random_file
+  {
+    audio_file  sound/samples/ambient/rain_light.wav
+  }
+	
+  gain  0.7
+  looping 1
+  streaming 1
+  instance_limit  2
+
+  freq_ratio_spread 0.1
+
+  group "ambient"
+  rolloffFactor 10
+  referenceDistance 70
+
+  description "just rain sound"
+  notes ""
+  status  "beta"
+}
+
+//! Used in corrosive_towers tile. - akee
+sound ambient/just_hum
+{
+  random_file
+  {
+    audio_file  sound/samples/ambient/tower_hum.ogg
+  }
+	
+  gain  0.35
+  looping 1
+  streaming 1
+  instance_limit  4
+
+  freq_ratio_spread 0.1
+
+  group "ambient"
+  rolloffFactor 10
+  referenceDistance 50
+
+  description "tower humming sound"
+  notes ""
+  status  "beta"
+}

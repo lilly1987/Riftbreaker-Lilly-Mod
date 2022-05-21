@@ -1,0 +1,37 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/acid/acid_big_rocks"
+		String "ground/acid/acid_big_rocks_puddles"
+		String "ground/acid/acid_gravel_01"
+		String "ground/acid/acid_ground_03"
+		String "ground/acid/acid_ground_04"
+		String "ground/acid/acid_ground_07"
+		String "ground/acid/acid_ground_13"
+		String "ground/acid/acid_ground_18"
+		String "ground/acid/acid_ground_24"
+		String "ground/acid/acid_ground_25"
+		String "ground/acid/acid_rocky_ground"
+		String "ground/magma/magma_rock_01"
+		String "ground/mud/forest_mud_03"
+	}
+
+	is_hidden "1"
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "0.000"
+			}
+
+		}
+
+	}
+
+}
+

@@ -1,0 +1,55 @@
+//! For corrosive_shrooms rain particle effects.
+EntityBlueprint "effects/no_lifetime"
+{
+  name effects/weather/just_rain
+
+  ParticleDesc
+  {
+    name  "rift/rain"
+  }
+}
+
+//! For corrosive_crack and corrosive_log fog effects.
+EntityBlueprint "effects/no_lifetime"
+{
+	name effects/weather/just_fog
+
+  ParticleDesc
+  {
+    name  "rift/mist
+  }
+}
+
+
+//! For corrosive_shrooms rain sound effects.
+EntityBlueprint "effects/no_lifetime"
+{
+  name effects/sound/just_rain
+
+  SoundDesc
+  {
+    name	"ambient/just_rain"
+  }
+}
+
+//! For corrosive_tower sound effect.
+EntityBlueprint "effects/no_lifetime"
+{
+  name effects/sound/just_hum
+
+  SoundDesc
+  {
+    name	"ambient/just_hum"
+  }
+}
+
+//! For corrosive_tree sound effect.
+EntityBlueprint "effects/no_lifetime"
+{
+  name effects/sound/forest_wind
+
+  SoundDesc
+  {
+    name	"ambient/forest_wind"
+  }
+}

@@ -1,0 +1,2 @@
+set camera/perspective/render_flags ""
+set scene/entity/2046/visible_mask "2"
