@@ -1,0 +1,356 @@
+import * from "materials/scripts/gui.material"
+
+// tower_acid_artillery build icons
+
+material gui/hud/building_icons/tower_acid_artillery : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery.dds
+}
+
+material gui/hud/building_icons/tower_acid_artillery_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery_disabled.dds
+}
+
+material gui/hud/building_icons/tower_acid_artillery_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_acid_artillery_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_acid_artillery_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_acid_artillery_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_acid_artillery_lvl3_disabled.dds
+}
+
+// tower_burstminigun build icons
+
+material gui/hud/building_icons/tower_burstminigun : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun.dds
+}
+
+material gui/hud/building_icons/tower_burstminigun_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun_disabled.dds
+}
+
+material gui/hud/building_icons/tower_burstminigun_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_burstminigun_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_burstminigun_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_burstminigun_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_burstminigun_lvl3_disabled.dds
+}
+
+// tower_empart build icons
+
+material gui/hud/building_icons/tower_empart : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart.dds
+}
+
+material gui/hud/building_icons/tower_empart_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart_disabled.dds
+}
+
+material gui/hud/building_icons/tower_empart_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_empart_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_empart_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_empart_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_empart_lvl3_disabled.dds
+}
+
+// tower_grav_accelerator build icons
+
+material gui/hud/building_icons/tower_grav_accelerator : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator.dds
+}
+
+material gui/hud/building_icons/tower_grav_accelerator_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator_disabled.dds
+}
+
+material gui/hud/building_icons/tower_grav_accelerator_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_grav_accelerator_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_grav_accelerator_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_grav_accelerator_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_grav_accelerator_lvl3_disabled.dds
+}
+
+// tower_heavy_grav_accelerator build icons
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator.dds
+}
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator_disabled.dds
+}
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_heavy_grav_accelerator_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_heavy_grav_accelerator_lvl3_disabled.dds
+}
+
+// tower_icelaser build icons
+
+material gui/hud/building_icons/tower_icelaser : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser.dds
+}
+
+material gui/hud/building_icons/tower_icelaser_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser_disabled.dds
+}
+
+material gui/hud/building_icons/tower_icelaser_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_icelaser_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_icelaser_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_icelaser_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_icelaser_lvl3_disabled.dds
+}
+
+// tower_lightning build icons
+
+material gui/hud/building_icons/tower_lightning : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning.dds
+}
+
+material gui/hud/building_icons/tower_lightning_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning_disabled.dds
+}
+
+material gui/hud/building_icons/tower_lightning_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_lightning_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_lightning_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_lightning_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_lightning_lvl3_disabled.dds
+}
+
+// tower_mhd build icons
+
+material gui/hud/building_icons/tower_mhd : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd.dds
+}
+
+material gui/hud/building_icons/tower_mhd_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd_disabled.dds
+}
+
+material gui/hud/building_icons/tower_mhd_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_mhd_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_mhd_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_mhd_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_mhd_lvl3_disabled.dds
+}
+
+// tower_plasma_mortar build icons
+
+material gui/hud/building_icons/tower_plasma_mortar : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar.dds
+}
+
+material gui/hud/building_icons/tower_plasma_mortar_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar_disabled.dds
+}
+
+material gui/hud/building_icons/tower_plasma_mortar_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_plasma_mortar_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_plasma_mortar_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_plasma_mortar_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_plasma_mortar_lvl3_disabled.dds
+}
+
+// tower_shotgun build icons
+
+material gui/hud/building_icons/tower_shotgun : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun.dds
+}
+
+material gui/hud/building_icons/tower_shotgun_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun_disabled.dds
+}
+
+material gui/hud/building_icons/tower_shotgun_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_shotgun_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_shotgun_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_shotgun_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_shotgun_lvl3_disabled.dds
+}
+
+// tower_sniper build icons
+
+material gui/hud/building_icons/tower_sniper : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper.dds
+}
+
+material gui/hud/building_icons/tower_sniper_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper_disabled.dds
+}
+
+material gui/hud/building_icons/tower_sniper_lvl2 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper_lvl2.dds
+}
+
+material gui/hud/building_icons/tower_sniper_lvl2_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper_lvl2_disabled.dds
+}
+
+material gui/hud/building_icons/tower_sniper_lvl3 : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper_lvl3.dds
+}
+
+material gui/hud/building_icons/tower_sniper_lvl3_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/tower_sniper_lvl3_disabled.dds
+}
+
+
+

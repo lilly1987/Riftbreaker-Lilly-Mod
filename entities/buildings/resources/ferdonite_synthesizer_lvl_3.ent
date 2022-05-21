@@ -1,0 +1,120 @@
+EntityBlueprint
+{
+	name "buildings/resources/ferdonite_synthesizer_lvl_3"
+	base_blueprint "buildings/resources/ferdonite_synthesizer_lvl_2"
+
+	IdDesc
+	{
+		name "ferdonite_synthesizer_lvl_2"
+	}
+
+	BuildingDesc
+	{
+		name 				"ferdonite_synthesizer_lvl_3"
+		bp   				"buildings/resources/ferdonite_synthesizer_lvl_3"
+		ghost_bp   			"buildings/resources/ferdonite_synthesizer_ghost"
+		category 			"resources"
+		//type				"pipe"
+		localization_id		"Ferdonite Synthesizer"
+		description			"Synthesizes ferdonite from energy. Can be used as an infinite source of ferdonite but consumes a lot of energy in the process which makes it not very economical."
+		menu_icon			"gui/hud/building_icons/ferdonite_synthesizer_lvl_3"
+		//require 			"headquarters"
+		//upgrade				"buildings/resources/ferdonite_synthesizer_lvl_4"
+		order				"30"
+		buildable			"0"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 60
+				building_cost
+				{
+					carbonium 	"5000"
+					steel 		"5000"
+				}
+			}
+
+		}		
+	}
+
+	ResourceConverterDesc
+	{
+		in
+		{
+			GameplayResource
+			{
+				resource 			"energy"
+				value			 	"1000"
+			}
+		}
+		
+		out
+		{
+			GameplayResource
+			{
+				resource			"ferdonite"
+				value				"4"
+			}
+		}
+
+		priority 2		
+	}
+
+
+	HealthDesc
+	{
+		max_health 					"1500"
+		health 						"1500"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		is_manual 1
+		update_health_uniform 		"1"
+
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"66"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"66_destroy"				
+				destroyed_state_effect_group 		"66_state"
+			}
+			DestructionLevel
+			{
+				health 								"33"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"33_destroy"
+				destroyed_state_effect_group 		"33_state"
+			}
+		}
+	}
+
+	EffectDesc
+	{		
+		EffectBaseBlueprints
+		{
+			"buildings/effects_small_base"
+		}	
+	
+		EffectGroup
+		{
+			group "level"
+			enabled "1"
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/level_3"
+					offset "0 6.5 0"
+					scale "0.8 0.8 0.8"
+					bone "att_level"
+				}
+			}
+		}		
+	}
+
+}
+

@@ -1,0 +1,82 @@
+import * from "entities/effects/weapons_energy.ent"
+
+EntityBlueprint
+{
+	name effects/weapons_energy/mhd_enemy_hit
+
+	base_blueprints
+	{
+		lights/point/orange_small
+		effects/no_lifetime
+	}
+
+	ParticleDesc
+	{
+		name    "rift/mhd_hit"
+	}
+
+	SoundDesc
+	{
+		name "effects/tower_fire/mhd_enemy_hit"
+	}
+}
+
+EntityBlueprint
+{
+	name 			"effects/weapons_energy/mhd_world_hit"
+
+	base_blueprints
+	{
+		lights/point/orange_small
+		effects/no_lifetime
+	}
+
+	ParticleDesc
+	{
+		name    "rift/mhd_hit"
+	}
+	
+	SoundDesc
+	{
+		name "effects/tower_fire/mhd_world_hit"
+	}	
+}
+
+EntityBlueprint
+{
+	name effects/weapons_energy/mhd_muzzle
+	
+	base_blueprints
+	{
+		lights/point/orange_small
+		effects/no_lifetime
+	}
+
+	ParticleDesc
+	{
+		name    "rift/mhd_muzzle"
+	}
+}
+
+EntityBlueprint
+{
+	name 			"effects/weapons_energy/plasma_explosion_medium"
+	base_blueprint	"effects/weapons_energy/energy_explosion_medium"
+
+	ShockWaveDesc
+	{
+		power 	"2000"
+		speed 	"40"
+		radius 	"15"
+	}
+	
+	CameraShakeDesc
+	{
+		duration 		"0.2"
+		power   		"0.08"
+		falloff_radius 	"25"
+		radius   		"40"
+		frequency 		"20"
+		group			"explosion_medium"
+	}
+}

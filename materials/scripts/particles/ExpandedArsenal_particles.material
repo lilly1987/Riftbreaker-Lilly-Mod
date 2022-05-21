@@ -1,0 +1,24 @@
+import * from "materials/scripts/particles.material"
+
+material particles/lightning_bolt_2x2_orange_02 : particles/emissive
+{
+	set_texture_alias	diffuse			materials/textures/particles/lightning_bolt_2x2_orange_02.dds
+	set_texture_alias	emissive		materials/textures/particles/lightning_bolt_2x2_blue_02_emissive.dds
+}
+
+material particles/lightning_bolt_4x4_orange_01 : particles/emissive
+{
+	set_texture_alias	diffuse			materials/textures/particles/lightning_bolt_4x4_orange_01.dds
+	set_texture_alias	emissive		materials/textures/particles/lightning_bolt_4x4_blue_01_emissive.dds
+}
+
+material particles/orange_lightning_atlas_add_01 : particles/add
+{
+	set_texture_alias	diffuse			materials/textures/particles/orange_lightning_atlas_add_01.dds
+}
+
+material particles/orange_muzzleflash_atlas_01 : particles/emissive
+{
+	set_texture_alias	diffuse			materials/textures/particles/orange_muzzleflash_atlas_01.dds
+	set_texture_alias	emissive		materials/textures/particles/alien_muzzleflash_atlas_01_emissive.dds	
+}

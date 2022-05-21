@@ -1,0 +1,261 @@
+EntityBlueprint
+{
+	name "buildings/resources/rhodonite_synthesizer"
+
+	BuildingDesc
+	{
+		name 				"rhodonite_synthesizer"
+		bp   				"buildings/resources/rhodonite_synthesizer"
+		ghost_bp   			"buildings/resources/rhodonite_synthesizer_ghost"
+		category 			"resources"
+		localization_id		"Rhodonite Synthesizer"
+		description			"Synthesizes rhodonite from energy. Can be used as an infinite source of rhodonite but consumes a lot of energy in the process which makes it not very economical."
+		menu_icon			"gui/hud/building_icons/rhodonite_synthesizer"
+		require 			"headquarters"
+		order				"35"
+		upgrade				"buildings/resources/rhodonite_synthesizer_lvl_2"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+
+
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 60
+				building_cost
+				{
+					carbonium 	"5000"
+					steel 		"5000"
+					rhodonite	"50"
+				}
+			}		
+		}		
+	}
+
+	ResourceConverterDesc
+	{
+		in
+		{
+			GameplayResource
+			{
+				resource 	"energy"
+				value 		"500"
+			}
+		}
+
+		out
+		{
+			GameplayResource
+			{
+				resource	"rhodonite"
+				value		"1"
+			}
+		}
+
+		priority 3
+	}
+
+	HealthDesc
+	{
+		max_health 					"1000"
+		health 						"1000"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		 is_manual 1
+		update_health_uniform 		"1"
+
+
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"66"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"66_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_25"
+				destroyed_state_effect_group 		"66_state"
+			}
+			DestructionLevel
+			{
+				health 								"33"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"33_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_0"
+				destroyed_state_effect_group 		"33_state"
+			}
+		}
+	}
+
+	MeshDesc
+	{
+		mesh 		"meshes/buildings/resources/rhodonite_synthesizer.mesh"
+		material 	"buildings/resources/rhodonite_synthesizer"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/buildings/resources/rhodonite_synthesizer"
+	}
+
+	TypeDesc
+	{
+		type "building|defense|tower"
+	}
+
+	AnimationGraphDesc
+	{
+		animation_graph_name "building_working"
+	}
+
+	LuaDesc
+	{
+		script "lua/buildings/building.lua"	
+		database
+		{
+			cone_effect			string:"build_cone_3x3"
+			cone_effect_sell 	string:"sell_big"
+		}
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"static"
+				group_id 			"building"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsCapsuleShape
+					{
+						r "1.45"
+						half_height "2"
+
+						position 
+						{
+							x "0.0"
+							y "1.45"
+							z "0.0"
+						}
+
+						orientation
+						{
+							w "0.7"
+							x "0.0"
+							z "0.7"
+							y "0.0"
+						}
+					}	
+				}
+			}
+		}
+	}
+
+	NodeCullerDesc
+	{
+		nav_mesh_cull_type "1"
+		cost_type "building"
+		flow_field_size "0.7"
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+			{
+				x	4
+				y	4
+				z	4
+			}
+		}
+	}
+
+	TargetDesc
+	{
+		
+	}
+
+	MinimapItemDesc
+	{
+		type	"quad"
+		color
+		{
+			x "1"
+			y "0.5"
+			z "0"
+			w "1"
+		}
+		size
+		{
+			x "1"
+			y "1"
+		}
+		visibility			"discovered"
+	}
+
+	FogOfWarRevealerComponentDesc
+	{
+		radius "16"
+	}
+
+	HealthBarDesc
+	{
+		type "2"
+		mode "1"
+	}
+}
+
+EntityBlueprint
+{
+	name "buildings/resources/rhodonite_synthesizer_ghost"
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/resources/rhodonite_synthesizer.mesh"
+		material "selector/hologram_blue"
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"kinematic"
+				group_id 			"ghost_building"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsBoxShape
+					{
+						x	4
+						y	4
+						z	4
+					}
+				}
+			}
+		}
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+			{
+				x	4
+				y	4
+				z	4
+			}
+		}
+	}
+
+	DisplayRadiusDesc
+	{
+		max_radius 0
+	}
+}

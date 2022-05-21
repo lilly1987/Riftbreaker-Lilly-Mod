@@ -1,0 +1,22 @@
+Attachments
+{
+	Attachment
+	{
+		name "att_landing_1"
+		offset "-1.02 6.02 -0.92"
+	}
+
+	Attachment
+	{
+		name "att_landing"
+		offset "-1.02 6.02 0.86"
+	}
+
+	Attachment
+	{
+		name "att_landing_2"
+		offset "0.52 6.90 -0.01"
+	}
+
+}
+

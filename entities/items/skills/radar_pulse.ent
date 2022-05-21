@@ -1,0 +1,67 @@
+EntityBlueprint
+{ 
+	name "items/consumables/radar_pulse"
+
+	FogOfWarRevealerComponentDesc
+	{
+		radius "1000"
+	}
+
+	LifeTimeDesc
+	{
+		time 20
+	}
+
+	EffectDesc
+	{		
+		EffectGroup
+		{
+			enabled "1"				
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/items/radar_pulse"								
+				}
+			}
+		}			
+	}
+
+		
+}
+
+EntityBlueprint
+{ 
+	name "items/skills/radar_pulse_item"
+
+	InventoryItemDesc
+	{
+		type 		"skill"
+		name 		"gui/menu/inventory/skill_name/radar_pulse"	
+		cooldown	"20"
+		icon		"gui/hud/items_icons/skills/radar_pulse"
+        bigger_icon "gui/menu/items_icons/skills/radar_pulse"		
+		description 	"gui/menu/inventory/skill_description/radar_pulse"	
+		add_quality "0"		
+	}
+
+	LuaDesc
+	{
+		script "lua/items/skills/radar_pulse.lua"		
+		
+		database
+		{
+			radius	float:"1000"
+		}
+	}
+
+	CostDesc
+	{
+		is_unique "1"
+	}
+
+	
+
+}
+

@@ -1,0 +1,138 @@
+EntityBlueprint
+{
+	name  "units/drones/drone_attack"
+
+	StateMachineDesc
+	{
+		template_name "drone"
+		params
+		{
+			angle_rotation_speed	float:"500"
+
+			hover_height			float:"1"
+			hover_min_height		float:"7"
+
+			owner_movement			string:"land"
+
+			target_movement			string:"follow"
+			target_search_mode  	string:"always"
+			target_follow_distance  float:"10"
+		}
+	}
+
+	LuaDesc
+	{
+		script "lua/units/air/attack_drone.lua"
+
+		database
+		{
+			search_radius float:"80.0"
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/units/drones/drone_attack.mesh"
+		material "units/drones/drone_attack"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/units/drones/drone_attack"
+	}
+
+	TypeDesc
+	{
+		type "drones"
+	}
+
+	MinimapItemDesc
+	{
+		type	"quad"
+		color
+		{
+			x "1"
+			y "1"
+			z "1"
+			w "1"
+		}
+		size
+		{
+			x "2"
+			y "2"
+		}
+
+		additional_z_order	"9"
+		visibility			"always"
+	}
+
+	MovementDataComponent
+	{
+		acceleration
+		{
+			base 	"40"
+		}
+
+		deacceleration
+		{
+			base 	"40"
+		}
+
+		max_speed
+		{
+			base 	"400"
+		}
+	}
+
+	EffectDesc
+	{
+
+		EffectGroup
+		{
+			group "fly"
+			enabled "0"
+
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/drone_trail"
+				}
+			}
+		}
+	}
+
+	WeaponItemDesc
+	{
+	}
+
+	BurstWeaponComponent
+	{
+		WeaponMuzzles
+		{
+			WeaponMuzzle
+			{
+				attachment "att_muzzle"
+			}
+			WeaponMuzzle
+			{
+				attachment "att_muzzle_2"
+			}			
+		}
+
+		WeaponAffector
+		{
+			emissive_time "0.35"
+			emissive_factor "60"
+			submesh_idx "1"
+		}
+
+		muzzles_per_fire 			"1"
+		ammo_blueprint 				"items/weapons_enemy/drone_projectile"
+		muzzle_flash_effect 		"effects/enemies_baxmoth/drone_attack"
+
+		burst_column_spacing 		"1"
+		burst_rate 					"0.1"
+		burst_column_angle 			"0"
+	}
+}

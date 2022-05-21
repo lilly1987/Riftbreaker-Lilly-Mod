@@ -1,0 +1,242 @@
+import * from "materials/scripts/gui.material"
+
+material gui/hud/building_icons/hazenite_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer.dds
+}
+
+material gui/hud/building_icons/hazenite_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/hazenite_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/hazenite_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/hazenite_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/hazenite_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/hazenite_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/tanzanite_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/tanzanite_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/ferdonite_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/ferdonite_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/rhodonite_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/rhodonite_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/cobalt_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer.dds
+}
+
+material gui/hud/building_icons/cobalt_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/cobalt_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/cobalt_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer_lvl_2_disabled.dds
+}
+
+
+material gui/hud/building_icons/cobalt_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/cobalt_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/cobalt_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/titanium_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/titanium_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/uranium_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/uranium_synthesizer_lvl_3_disabled.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer_disabled.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer_lvl_2 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer_lvl_2.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer_lvl_2_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer_lvl_2_disabled.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer_lvl_3 : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer_lvl_3.dds
+}
+
+material gui/hud/building_icons/palladium_synthesizer_lvl_3_disabled : gui/default
+{
+	set_texture_alias diffuse			materials/textures/gui/hud/building_icons/palladium_synthesizer_lvl_3_disabled.dds
+}

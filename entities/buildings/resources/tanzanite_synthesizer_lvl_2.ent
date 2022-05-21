@@ -1,0 +1,115 @@
+EntityBlueprint
+{
+	name  "buildings/resources/tanzanite_synthesizer_lvl_2"
+	base_blueprint "buildings/resources/tanzanite_synthesizer"
+
+	BuildingDesc
+	{
+		name 				"tanzanite_synthesizer_lvl_2"
+		bp   				"buildings/resources/tanzanite_synthesizer_lvl_2"
+		ghost_bp   			"buildings/resources/tanzanite_synthesizer_ghost"
+		category 			"resources"
+		localization_id		"Tanzanite Synthesizer"
+		description			"Synthesizes tanzanite from energy. Can be used as an infinite source of tanzanite but consumes a lot of energy in the process which makes it not very economical."
+		menu_icon			"gui/hud/building_icons/tanzanite_synthesizer_lvl_2"
+		require 			"headquarters"
+		order				"32"
+		buildable			"0"
+		upgrade				"buildings/resources/tanzanite_synthesizer_lvl_3"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 60
+				building_cost
+				{
+					carbonium 	"5000"
+					steel 		"5000"	
+				}
+			}			
+		}
+	}
+
+	ResourceConverterDesc
+	{
+		in
+		{
+			GameplayResource
+			{
+				resource 			"energy"
+				value			 	"750"
+			}
+		
+		}
+		out
+		{
+			GameplayResource
+			{
+				resource 			"tanzanite"
+				value			 	"2"
+			}
+			
+		}		
+		priority 2
+	}
+
+
+	HealthDesc
+	{
+		max_health 					"1250"
+		health 						"1250"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		 is_manual 1
+		update_health_uniform 		"1"
+		
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"66"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"66_destroy"				
+				//destroyed_state_material 			"buildings/main/headquarters_dest_25"
+				destroyed_state_effect_group 		"66_state"
+			}
+			DestructionLevel
+			{
+				health 								"33"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"33_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_0"
+				destroyed_state_effect_group 		"33_state"
+			}
+		}
+	}
+
+
+
+	EffectDesc
+	{		
+		EffectBaseBlueprints
+		{
+			"buildings/effects_small_base"
+		}	
+	
+		EffectGroup
+		{
+			group "level"
+			enabled "1"
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/level_2_simple"
+					bone "att_level"
+				}
+			}
+		}		
+	}
+
+}
+

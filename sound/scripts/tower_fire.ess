@@ -1,0 +1,109 @@
+sound effects/tower_fire/mhd_start
+{
+	random_file
+    {
+        audio_file          sound/samples/weapon_fire/mhd_start.wav
+    }
+    gain                0.5
+    looping             0
+    streaming			0
+	//instance_limit		1
+	
+	freq_ratio_spread	0.1
+
+	group				"player"
+    rolloffFactor		10
+    referenceDistance	50
+	
+	description			"tower mhd start"
+	notes				""
+	status				"placeholder"
+}
+
+sound effects/tower_fire/mhd_loop
+{
+	random_file
+    {
+        audio_file          sound/samples/weapon_fire/mhd_loop.wav
+    }
+    gain                1.2
+    looping             1
+    streaming			0
+	//instance_limit		1
+	
+	freq_ratio_spread	0.1
+
+	group				"player"
+    rolloffFactor		10
+    referenceDistance	50
+	
+	description			"tower mhd loop"
+	notes				""
+	status				"placeholder"
+}
+
+sound effects/tower_fire/mhd_stop
+{
+	random_file
+    {
+        audio_file          sound/samples/weapon_fire/mhd_stop.wav
+    }
+    gain                0.5
+    looping             0
+    streaming			0
+	//instance_limit		1
+	
+	freq_ratio_spread	0.1
+
+	group				"player"
+    rolloffFactor		10
+    referenceDistance	50
+	
+	description			"tower mhd stop"
+	notes				""
+	status				"placeholder"
+}
+
+sound effects/tower_fire/mhd_enemy_hit
+{
+	random_file
+    {
+        audio_file          sound/samples/weapon_hit/mhd_enemy_hit.wav
+    }
+    gain                0.5
+    looping             1
+    streaming			0
+	//instance_limit		1
+	
+	freq_ratio_spread	0.1
+
+	group				"player"
+    rolloffFactor		10
+    referenceDistance	50
+	
+	description			"tower mhd hit enemy"
+	notes				""
+	status				"placeholder"
+}
+
+sound effects/tower_fire/mhd_world_hit
+{
+	random_file
+    {
+        audio_file          sound/samples/weapon_hit/mhd_world_hit.wav
+    }
+    gain                0.5
+    looping             1
+    streaming			0
+	//instance_limit		1
+	
+	freq_ratio_spread	0.1
+
+	group				"player"
+    rolloffFactor		10
+    referenceDistance	50
+	
+	description			"tower mhd hit world"
+	notes				""
+	status				"placeholder"
+}

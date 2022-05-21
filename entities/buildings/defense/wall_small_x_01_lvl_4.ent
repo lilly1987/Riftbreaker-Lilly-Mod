@@ -1,0 +1,145 @@
+EntityBlueprint
+{
+	name  "buildings/defense/wall_small_x_01_lvl_4"
+
+	base_blueprint 			buildings/defense/wall_small_x_01_lvl_3
+
+	BuildingDesc
+	{
+		buildable 	"0"
+		name 				"wall_small_x_01_lvl_4"
+		bp   				"buildings/defense/wall_small_x_01_lvl_4"
+		ghost_bp 			"buildings/defense/wall_small_x_01_lvl_4_ghost"
+		category 			"defense"
+		type				"wall"
+		localization_id		"gui/hud/building_name/wall_small"
+		description			"gui/hud/building_description/wall_small"
+		menu_icon			"gui/hud/building_icons/wall_small"
+		build_on_water		"0"
+		require 			"headquarters"
+		//upgrade				"buildings/defense/wall_small_x_01_lvl_5"
+		building_mode		"2"
+
+		pipe_mode   "1"
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 5
+				building_cost
+				{
+					carbonium 	"40"
+				}
+			}
+		}
+
+		connect
+		{
+			T 		"buildings/defense/wall_small_t_01_lvl_4"
+			X		"buildings/defense/wall_small_x_01_lvl_4"
+			L		"buildings/defense/wall_small_corner_01_lvl_4"
+			I		"buildings/defense/wall_small_straight_01_lvl_4"
+		}
+	}
+
+	HealthDesc
+	{
+		max_health 					"2800"
+		health 						"2800"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		 is_manual 1
+		update_health_uniform 		"1"
+
+
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"66"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"66_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_25"
+				destroyed_state_effect_group 		"66_state"
+			}
+			DestructionLevel
+			{
+				health 								"33"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"33_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_0"
+				destroyed_state_effect_group 		"33_state"
+			}
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/defense/wall_small_x_01_lvl_3.mesh"
+		material "buildings/defense/walls_lvl_4"
+	}
+}
+
+EntityBlueprint
+{
+	name  "buildings/defense/wall_small_x_01_lvl_4_ghost"
+
+	BuildingDesc
+	{
+		name		"wall_small_x_01_lvl_4_ghost"
+		buildable 	"0"
+		type		"wall"
+		bp   				"buildings/defense/wall_small_x_01_lvl_4"
+
+		pipe_mode   "1"
+		connect
+		{
+			T 		"buildings/defense/wall_small_t_01_lvl_4"
+			X		"buildings/defense/wall_small_x_01_lvl_4"
+			L		"buildings/defense/wall_small_corner_01_lvl_4"
+			I		"buildings/defense/wall_small_straight_01_lvl_4"
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/defense/wall_small_x_01_lvl_3.mesh"
+		material "selector/hologram_blue"
+	}
+
+	PhysicsDesc
+ 	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"kinematic"
+				group_id 			"ghost_building"
+				physics_material 	"default"
+				Shapes
+				{
+   					PhysicsBoxShape
+   					{
+    						x	2
+    						y	2
+    						z	2
+   					}
+				}
+			}
+		}
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+   			{
+    				x	2
+    				y	2
+    				z	2
+   			}
+    	}
+	}
+}

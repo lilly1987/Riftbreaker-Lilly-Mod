@@ -1,0 +1,121 @@
+import * from "materials/scripts/buildings_resources.material"
+
+material buildings/resources/ionizer_lvl_2 : buildings/destructible
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/ionizer_lvl_2_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/ionizer_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/ionizer_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/ionizer_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 9
+        }
+    }
+}
+
+material buildings/resources/ionizer_lvl_2_dissolve : pbr/height_dissolve
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/ionizer_lvl_2_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/ionizer_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/ionizer_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/ionizer_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 9
+        }
+    }
+}
+
+material buildings/resources/ionizer_lvl_3 : buildings/destructible
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/ionizer_lvl_3_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/ionizer_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/ionizer_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/ionizer_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 9
+        }
+    }
+}
+
+material buildings/resources/ionizer_lvl_3_dissolve : pbr/height_dissolve
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/ionizer_lvl_3_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/ionizer_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/ionizer_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/ionizer_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 9
+        }
+    }
+}
+
+material buildings/resources/supercoolant_refinery_lvl_2 : buildings/destructible
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/supercoolant_refinery_lvl_2_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/supercoolant_refinery_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/supercoolant_refinery_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/supercoolant_refinery_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 14
+        }
+    }
+}
+
+material buildings/resources/supercoolant_refinery_lvl_2_dissolve : pbr/height_dissolve
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/supercoolant_refinery_lvl_2_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/supercoolant_refinery_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/supercoolant_refinery_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/supercoolant_refinery_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 14
+        }
+    }
+}
+
+material buildings/resources/supercoolant_refinery_lvl_3 : buildings/destructible
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/supercoolant_refinery_lvl_3_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/supercoolant_refinery_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/supercoolant_refinery_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/supercoolant_refinery_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 14
+        }
+    }
+}
+
+material buildings/resources/supercoolant_refinery_lvl_3_dissolve : pbr/height_dissolve
+{
+	set_texture_alias albedo			materials/textures/buildings/resources/supercoolant_refinery_lvl_3_albedo.dds
+	set_texture_alias normal			materials/textures/buildings/resources/supercoolant_refinery_normal.dds
+	set_texture_alias packed			materials/textures/buildings/resources/supercoolant_refinery_packed.dds
+	set_texture_alias emissive			materials/textures/buildings/resources/supercoolant_refinery_emissive.dds
+	technique 0
+	{
+		pass 0
+		{
+			glow 14
+        }
+    }
+}

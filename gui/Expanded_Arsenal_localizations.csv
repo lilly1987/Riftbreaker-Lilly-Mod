@@ -1,0 +1,68 @@
+;ENGLISH;POLISH;RUSSIAN;FRENCH;GERMAN;SPANISH;BRASILIAN;CHINESE_SP;JAPANESE;KOREAN
+gui/menu/planetary_scanner/base_info_buildings_defense_mod;Mod Defense Buildings;;;;;;;;;
+gui/hud/building_name/tower_empart;Stun Artillery;;;;;;;;;
+gui/hud/building_description/tower_empart;Lobs special stun shells that can temporarily stun Galatean aliens. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/hud/building_name/tower_plasma_mortar;Plasma Mortar;;;;;;;;;
+gui/hud/building_description/tower_plasma_mortar;Fires barrage of plasmoids on target. Uses substantial amount of power.;;;;;;;;;
+gui/menu/research/name/towers_advanced_artillery_lvl1;Advanced Artillery - Level 1;;;;;;;;;
+gui/menu/research/name/towers_advanced_artillery_lvl2;Advanced Artillery - Level 2;;;;;;;;;
+gui/menu/research/name/towers_advanced_artillery_lvl3;Advanced Artillery - Level 3;;;;;;;;;
+gui/menu/research/description/towers_advanced_artillery_lvl1;Advances in ballistics and metallurgy allow creation of new artillery towers.;;;;;;;;;
+gui/menu/research/description/towers_advanced_artillery_lvl2;Improved mechanisms and assemblies extend effectiveness of advanced artillery towers.;;;;;;;;;
+gui/menu/research/description/towers_advanced_artillery_lvl3;Further development of artillery warheads and propellants enable higher damage output.;;;;;;;;;
+gui/hud/building_name/tower_burstminigun;Burst Minigun Tower;;;;;;;;;
+gui/hud/building_description/tower_burstminigun;A rotary cannon that fires fragmentation shells in short bursts. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/hud/building_name/tower_shotgun;Shotgun Tower;;;;;;;;;
+gui/hud/building_description/tower_shotgun;Variant of Sentinel Tower that uses a shotgun. Effective against swarms. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/hud/building_name/tower_sniper;Sniper Tower;;;;;;;;;
+gui/hud/building_description/tower_sniper;A tower equipped with large calibre cannon that can engage distant targets. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/menu/research/name/towers_high_calibers_lvl1;High Caliber Towers - Level 1;;;;;;;;;
+gui/menu/research/name/towers_high_calibers_lvl2;High Caliber Towers - Level 2;;;;;;;;;
+gui/menu/research/name/towers_high_calibers_lvl3;High Caliber Towers - Level 3;;;;;;;;;
+gui/menu/research/description/towers_high_calibers_lvl1;Development of novel propellants and compact assemblies allow creation of high caliber towers.;;;;;;;;;
+gui/menu/research/description/towers_high_calibers_lvl2;Refinement of ammunition assemblies and handling enable increased effectiveness.;;;;;;;;;
+gui/menu/research/description/towers_high_calibers_lvl3;Improved ballistics and metallurgy allow higher stopping potential.;;;;;;;;;
+gui/hud/building_name/tower_grav_accelerator;Gravity Accelerator;;;;;;;;;
+gui/hud/building_description/tower_grav_accelerator;Fires mini-singularity shells at distant targets. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/hud/building_name/tower_heavy_grav_accelerator;Heavy Gravity Accelerator;;;;;;;;;
+gui/hud/building_description/tower_heavy_grav_accelerator;Fires singularity shells at distant targets. Requires superheated plasma and Tower Ammunition Factory to operate.;;;;;;;;;
+gui/menu/research/name/towers_grav_accelerators_lvl1;Gravity Accelerators - Level 1;;;;;;;;;
+gui/menu/research/name/towers_grav_accelerators_lvl2;Gravity Accelerators - Level 2;;;;;;;;;
+gui/menu/research/name/towers_grav_accelerators_lvl3;Gravity Accelerators - Level 3;;;;;;;;;
+gui/menu/research/description/towers_grav_accelerators_lvl1;Research into ferdonite and advanced propulsions enable creation of towers that shoot singularity shells.;;;;;;;;;
+gui/menu/research/description/towers_grav_accelerators_lvl2;Redesigned gravity implosion cores allow tremendous damage boost to gravity accelerators.;;;;;;;;;
+gui/menu/research/description/towers_grav_accelerators_lvl3;Better ferdonite utilization allow further amplification of gravity damage.;;;;;;;;;
+gui/hud/building_name/tower_acid_artillery;Acid Artillery;;;;;;;;;
+gui/hud/building_description/tower_acid_artillery;Lobs highly acidic shells to distant targets. Requires Tower Ammunition Factory to operate.;;;;;;;;;
+gui/menu/research/name/towers_acid_lvl1;Acid Towers - Level 1;;;;;;;;;
+gui/menu/research/name/towers_acid_lvl2;Acid Towers - Level 2;;;;;;;;;
+gui/menu/research/name/towers_acid_lvl3;Acid Towers - Level 3;;;;;;;;;
+gui/menu/research/description/towers_acid_lvl1;Research into Galatea 37 acidic biome creatures allow creation of tower analogues.;;;;;;;;;
+gui/menu/research/description/towers_acid_lvl2;Reformulation of weaponised acidic fluids enable higher damage output of acidic towers.;;;;;;;;;
+gui/menu/research/description/towers_acid_lvl3;Incorporation of nano-engineered palladium alloys enable more effective acid delivery to target.;;;;;;;;;
+gui/hud/building_name/tower_icelaser;Ice Laser;;;;;;;;;
+gui/hud/building_description/tower_icelaser;Shoots a cooling beam to the target. Deals less damage than the standard Laser Tower.;;;;;;;;;
+gui/hud/building_name/tower_mhd;MHD Tower;;;;;;;;;
+gui/hud/building_description/tower_mhd;Fires superheated liquid metal to target. Requires constant flow of ironium to operate.;;;;;;;;;
+gui/menu/research/name/towers_advanced_lasers_lvl1;Advanced Laser Towers - Level 1;;;;;;;;;
+gui/menu/research/name/towers_advanced_lasers_lvl2;Advanced Laser Towers - Level 2;;;;;;;;;
+gui/menu/research/name/towers_advanced_lasers_lvl3;Advanced Laser Towers - Level 3;;;;;;;;;
+gui/menu/research/description/towers_advanced_lasers_lvl1;Research into Rhodonite and Galatean creatures allow creation of sophisticated laser systems.;;;;;;;;;
+gui/menu/research/description/towers_advanced_lasers_lvl2;Development of better focusing technologies reduce diffraction at range and boosts damage output.;;;;;;;;;
+gui/menu/research/description/towers_advanced_lasers_lvl3;Newer Rhodonite-based components allow increased power and damage at range.;;;;;;;;;
+gui/hud/building_name/tower_lightning;Lightning Spike;;;;;;;;;
+gui/hud/building_description/tower_lightning;Triggers lightning strike on target. Requires substantial amount of power.;;;;;;;;;
+gui/menu/research/name/towers_rift_lvl1;Rift Towers - Level 1;;;;;;;;;
+gui/menu/research/name/towers_rift_lvl2;Rift Towers - Level 2;;;;;;;;;
+gui/menu/research/name/towers_rift_lvl3;Rift Towers - Level 3;;;;;;;;;
+gui/menu/research/description/towers_rift_lvl1;Research into rift technologies and Galatean aliens allow creation of special rift manipulation towers.;;;;;;;;;
+gui/menu/research/description/towers_rift_lvl2;Application of rare minerals such as tanzanite allow more predictable triggers.;;;;;;;;;
+gui/menu/research/description/towers_rift_lvl3;High performance quantum cores further enable greater control.;;;;;;;;;
+
+
+ 
+
+
+ 
+
+

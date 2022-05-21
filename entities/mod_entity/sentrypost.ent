@@ -1,0 +1,162 @@
+EntityBlueprint
+{
+	name  "mod_entity/entity_14"
+
+	BuildingDesc
+	{
+		name 				"sentrypost"
+		bp   				"mod_entity/entity_14"
+		ghost_bp   			"mod_entity/entity_14_ghost"
+		category 			"defense_mod"
+		localization_id		"Sentry Post"
+		description			"Reveals the surrounding area."
+		menu_icon			"gui/hud/building_icons/base_lamp"
+		radius_name			"magnetic_stabilizer"
+		min_radius			"72"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+		
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 1
+				building_cost
+				{
+					carbonium 	"1"		
+				}
+			}		
+		}
+	}
+
+	FogOfWarRevealerComponentDesc
+	{
+		radius "36"
+	}
+
+	LuaDesc
+	{
+		script "lua/buildings/building.lua"
+		database
+		{
+			remove_lua_after_build int:"1"
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/decorations/base_lamp.mesh"
+		material "buildings/decorations/base_lamp"
+	}
+
+	TypeDesc
+	{
+		type "building"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/buildings/decorations/base_lamp"
+	}
+
+	PhysicsDesc
+ 	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"static"
+				group_id 			"floor"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsBoxShape
+					{
+						x "0.5"
+						y "8"
+						z "0.5"
+
+						position 
+						{
+							x "0.0"
+							y "4"
+							z "0.0"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	NodeCullerDesc
+	{
+		nav_mesh_cull_type "1"
+		cost_type "building"
+		flow_field_size "0.7"
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+   			PhysicsBoxShape
+   			{
+    				x	2
+    				y	2
+    				z	2
+   			}			
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name  "mod_entity/entity_14_ghost"
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/decorations/base_lamp.mesh"
+		material "selector/hologram_blue"
+	}
+
+	DisplayRadiusDesc
+	{
+		max_radius 36
+	}
+
+	PhysicsDesc
+ 	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"kinematic"
+				group_id 			"ghost_building"
+				physics_material 	"default"
+				Shapes
+				{
+   					PhysicsBoxShape
+   					{
+    						x	2
+    						y	2
+    						z	2
+   					}
+				}
+			}
+		}
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+   			{
+    				x	2
+    				y	2
+    				z	2
+   			}
+    	}		
+	}
+}
+

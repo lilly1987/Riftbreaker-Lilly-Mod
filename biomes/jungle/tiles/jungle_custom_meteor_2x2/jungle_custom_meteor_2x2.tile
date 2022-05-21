@@ -1,0 +1,69 @@
+TileDef
+{
+	tile_materials
+	{
+		String "ground/magma/cracked_ground_02"
+		String "ground/magma/magma_ground_06"
+		String "ground/magma/magma_lava"
+		String "ground/magma/magma_lava_fine"
+		String "ground/magma/magma_lava_hot"
+		String "ground/magma/magma_lava_hot_fine"
+		String "ground/magma/magma_rock_02"
+		String "ground/magma/vulcanic_gravel_03"
+		String "ground/magma/vulcanic_gravel_04"
+		String "ground/mud/forest_mud_03"
+		String "ground/mud/mud_02"
+		String "ground/rock/coral_mud"
+	}
+
+	is_hidden "0"
+	tile_regions
+	{
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "0.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "0.000"
+				y "1.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "1.000"
+				y "0.000"
+			}
+
+		}
+
+		TileRegion
+		{
+			edges "flat_0,flat_0,flat_0,flat_0"
+			offset
+			{
+				x "1.000"
+				y "1.000"
+			}
+
+		}
+
+	}
+
+}
+

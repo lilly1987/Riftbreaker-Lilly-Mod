@@ -1,0 +1,52 @@
+EntityBlueprint
+{
+	name "effects/tower_lightning_strike/lightning_strike"
+	base_blueprints
+	{
+		 lights/point/explosion_blue_big
+		 effects/default
+	}
+
+	TeamDesc
+	{
+		team "player"
+	}
+
+	ShockWaveDesc
+	{
+		power 	"2500"
+		speed 	"30"
+		radius 	"30"
+	}
+
+	ParticleDesc
+	{
+		name    "rift/lesigian_lightning_explosion"
+	}
+
+	CameraShakeDesc
+	{
+		duration 		"0.2"
+		power   		"0.1"
+		falloff_radius 	"35"
+		radius   		"50"
+		frequency 		"20"
+		group			"explosion_medium"
+	}
+
+	SoundDesc
+	{
+		name "enemies/lesigian/lightning_explosion"
+	}
+
+	DecalDesc
+	{	
+		blueprint "effects/decals/explosion_hole_random"
+		scale
+		{
+			x		3
+			y		3
+			z		3
+		}
+	}
+}

@@ -1,0 +1,31 @@
+import * from "materials/scripts/gui.material"
+
+material gui/hud/building_icons/liquid_pump_magma : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_magma.dds
+}
+
+material gui/hud/building_icons/liquid_pump_magma_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_magma_disabled.dds
+}
+
+material gui/hud/building_icons/liquid_pump_mud : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_mud.dds
+}
+
+material gui/hud/building_icons/liquid_pump_mud_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_mud_disabled.dds
+}
+
+material gui/hud/building_icons/liquid_pump_sludge : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_sludge.dds
+}
+
+material gui/hud/building_icons/liquid_pump_sludge_disabled : gui/default
+{
+	set_texture_alias diffuse materials/textures/gui/hud/building_icons/liquid_pump_sludge_disabled.dds
+}

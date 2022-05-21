@@ -1,0 +1,9 @@
+;ENGLISH;POLISH;RUSSIAN;FRENCH;GERMAN;SPANISH;BRASILIAN;CHINESE_SP;JAPANESE;KOREAN
+gui/menu/research/name/special_pumps;Specialized Pumps;;;;Spezialisierte Förderpumpen;;;;;
+gui/menu/research/description/special_pumps;This research allows the construction of advanced pumps that extract raw materials in liquid form in the best possible way.;;;;Diese Forschung ermöglicht den Bau von fortschrittlichen Pumpen, die Rohstoffe in flüssiger Form auf bestmögliche Weise fördern.;;;;;
+gui/hud/building_name/liquid_pump_magma;Magma Pump;;;;Magmapumpe;;;;;
+gui/hud/building_description/liquid_pump_magma;A pump specialized in pumping magma.;;;;Eine Pumpe, die auf das Pumpen von Magma spezialisiert ist.;;;;;
+gui/hud/building_name/liquid_pump_mud;Mud Pump;;;;Matschpumpe;;;;;
+gui/hud/building_description/liquid_pump_mud;A pump specialized in pumping mud.;;;;Eine Pumpe, die auf das Pumpen von Matsch spezialisiert ist.;;;;;
+gui/hud/building_name/liquid_pump_sludge;Sludge Pump;;;;Schlammpumpe;;;;;
+gui/hud/building_description/liquid_pump_sludge;A pump specialized in pumping sludge.;;;;Eine Pumpe, die auf das Pumpen von Schlamm spezialisiert ist.;;;;;

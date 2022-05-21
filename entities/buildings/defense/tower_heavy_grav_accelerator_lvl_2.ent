@@ -1,0 +1,237 @@
+EntityBlueprint
+{
+	name "buildings/defense/tower_heavy_grav_accelerator_lvl_2"
+	
+	base_blueprint "buildings/defense/tower_heavy_grav_accelerator"
+
+	BuildingDesc
+	{
+		name 				"tower_heavy_grav_accelerator_lvl_2"
+		bp   				"buildings/defense/tower_heavy_grav_accelerator_lvl_2"
+		ghost_bp   			"buildings/defense/tower_heavy_grav_accelerator_lvl_2_ghost"
+		category 			"defense_mod"
+		localization_id		"gui/hud/building_name/tower_heavy_grav_accelerator"
+		description			"gui/hud/building_description/tower_heavy_grav_accelerator"
+		menu_icon			"gui/hud/building_icons/tower_heavy_grav_accelerator_lvl2"
+		require 			"headquarters"
+		order				"11"
+		buildable			"0"
+		type				"tower"
+		overrides			"tower,wall"
+		upgrade				"buildings/defense/tower_heavy_grav_accelerator_lvl_3"
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
+
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 2.5
+				building_cost
+				{
+					carbonium 	"1000"
+					steel 		"600"
+					ferdonite	"500"
+				}
+			}
+			
+			BuildingCostInfo
+			{
+				name "survival"
+				building_time 2.5
+				building_cost
+				{
+					carbonium 	"1000"
+					steel 		"600"
+					ferdonite	"250"
+				}
+			}
+		}
+	}
+
+	ResourceConverterDesc // must be here for AI
+	{
+		in
+		{
+			GameplayResource
+			{
+				resource 	"energy"
+				value 		"25"
+			}
+			GameplayResource
+			{
+				resource 	"plasma_charged"
+				value 		"25"
+				attachment	"att_in_1"
+			}
+		}
+
+		out
+		{
+		}
+
+		priority 6
+	}
+
+	HealthDesc
+	{
+		max_health 					"1500"
+		health 						"1500"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		is_manual 1
+		update_health_uniform 		"1"
+
+
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"80"
+				destroy_state_change_effect_group 	"80_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"80_destroy"
+				destroyed_state_effect_group 		"80_state"
+				destrucion_level_name 				"80"
+
+			}
+			DestructionLevel
+			{
+				health 								"60"
+				destroy_state_change_effect_group 	"60_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"60_destroy"
+				destroyed_state_effect_group 		"60_state"
+				destrucion_level_name 				"60"
+			}
+			DestructionLevel
+			{
+				health 								"40"
+				destroy_state_change_effect_group 	"40_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"40_destroy"
+				destroyed_state_effect_group 		"40_state"
+				destrucion_level_name 				"40"
+			}
+			DestructionLevel
+			{
+				health 								"20"
+				destroy_state_change_effect_group 	"20_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"20_destroy"
+				destroyed_state_effect_group 		"20_state"
+				destrucion_level_name 				"20"
+			}
+			DestructionLevel
+			{
+				health 								"0"
+				destroy_state_change_effect_group 	"0_transition"
+				destroy_comp_delay 					"0.6"
+				destroy_comp_event 					"default"
+				//destroyed_state_effect_group 		"0_state"
+			}			
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/defense/tower_heavy_artillery_lvl_2.mesh"
+		material "buildings/defense/tower_heavy_grav_accelerator_lvl_2"
+	}
+
+	TypeDesc
+	{
+		type "building|defense|tower"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/buildings/defense/tower_heavy_artillery_lvl_2"
+	}
+
+	WeaponItemDesc
+	{
+	}
+
+	TowerDesc
+	{
+	}
+
+	BurstWeaponComponent
+	{
+		WeaponMuzzles
+		{
+			WeaponMuzzle
+			{
+				attachment "att_muzzle"
+				recoil_bone  "be_recoil"
+				recoil_time   "0.35"
+				recoil_offset   "1.0"
+			}
+		}
+
+		WeaponAffector
+		{
+			emissive_time "0.35"
+			emissive_factor "10"
+			submesh_idx "1"
+		}
+
+		ammo_blueprint 			"buildings/defense/tower_heavy_grav_projectile_2"
+		muzzle_flash_effect 	"effects/weapons_energy/heavy_artillery_muzzle"
+
+		burst_column_spacing 	"0"
+		burst_rate 				"0"
+		burst_column_angle 		"0"
+	}
+}
+
+EntityBlueprint
+{
+	name "buildings/defense/tower_heavy_grav_projectile_2"
+	base_blueprint "buildings/defense/tower_heavy_grav_projectile"
+
+	ProjectileAmmoComponent
+	{
+		on_enemy_hit_effect 	"items/weapons/gravity_heavy_warhead_lvl_2"
+		on_world_hit_effect 	"effects/weapons_bullet/bullet_hit_world_rocks_medium"
+		on_resisted_hit_effect 	"items/weapons/gravity_heavy_warhead_lvl_2"
+		collision_3d 			"world|world_blocker|destructible|ground_unit|air_unit|hitbox|shield"
+		hit_effect_direction 	"up"
+		DamagePattern
+		{
+			area_damage_speed	"40"
+		}
+	}
+	children
+	{
+		EntityBlueprint
+		{
+			RibbonComponent
+			{		
+				material 			ribbon/smoke_trail_blue_01
+				update_bounds 		1
+				fade_out_time		0.9
+				uv_scroll			"0 -2.5"
+				tiling_distance     "0"
+				tesselation_step 	"0.25"
+				keep_local			"0"
+
+				Ribbons
+				{
+					Ribbon
+					{
+						parent_attachment "att_exhaust"
+						offset "0 0 0.9"
+					}
+
+					Ribbon
+					{
+						parent_attachment "att_exhaust"
+						offset "0 0 -0.9"
+					}
+				}
+			}
+		}
+	}	
+}

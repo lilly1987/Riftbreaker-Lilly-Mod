@@ -1,0 +1,186 @@
+EntityBlueprint
+{
+	name  					"mod_entity/entity_12"
+
+	base_blueprint 			mod_entity/entity_11	
+
+	BuildingDesc
+	{
+		buildable 			"0"		
+		name 				"dehumidifier_lvl_2"
+		bp   				"mod_entity/entity_12"
+		ghost_bp   			"mod_entity/dehumidifier_ghost"
+		category 			"resources_mod"
+		localization_id		"Dehumidifier"
+		description			"Takes moisture from the air converting it into water."
+		menu_icon			"gui/hud/building_icons/dehumidifier_lvl2"
+		type				"pipe"
+		require 			"headquarters"
+		upgrade				"mod_entity/entity_13"	
+		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"		
+				
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 60
+				building_cost
+				{
+					carbonium 	"400"
+					steel 		"400"
+					cobalt		"100"	
+				}
+			}		
+		}
+	}
+
+	ResourceConverterDesc
+	{
+		in
+		{			
+			GameplayResource
+			{
+				resource 	"energy"
+				value 		"400"
+			}
+		}
+		
+		out
+		{
+			GameplayResource
+			{
+				resource 	"water"
+				value 		"75"
+				attachment	"att_out_1"
+			}
+		}
+		priority 4		
+	}
+	ResourceStorageDesc
+	{
+		Storages
+		{
+			Storage
+			{
+				resource	 	"water"
+				max 	 		"300"
+				attachment		"att_out_1"
+			}
+		}
+	}	
+	HealthDesc
+	{
+		max_health 					"1300"
+		health 						"1300"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		 is_manual 1
+		update_health_uniform 		"1"
+		
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"80"
+				destroy_state_change_effect_group 	"80_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"80_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_50"
+				destroyed_state_effect_group 		"80_state"
+				destrucion_level_name 				"80"
+
+			}
+			DestructionLevel
+			{
+				health 								"60"
+				destroy_state_change_effect_group 	"60_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"60_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_25"
+				destroyed_state_effect_group 		"60_state"
+				destrucion_level_name 				"60"
+			}
+			DestructionLevel
+			{
+				health 								"40"
+				destroy_state_change_effect_group 	"40_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"40_destroy"
+				//destroyed_state_material 			"buildings/main/headquarters_dest_0"
+				destroyed_state_effect_group 		"40_state"
+				destrucion_level_name 				"40"
+			}
+			DestructionLevel
+			{
+				health 								"20"
+				destroy_state_change_effect_group 	"20_transition"
+				destroy_comp_delay 					"0.5"
+				destroy_comp_event 					"20_destroy"
+				//destroyed_state_material 			"units_ground/medium_tank_regular_dest_0"
+				destroyed_state_effect_group 		"20_state"
+				destrucion_level_name 				"20"
+			}
+			DestructionLevel
+			{
+				health 								"0"
+				destroy_state_change_effect_group 	"0_transition"
+				destroy_comp_delay 					"0.6"
+				destroy_comp_event 					"default"
+				//destroyed_state_material 			"units_ground/medium_tank_regular_dest_0"
+				//destroyed_state_effect_group 		"0_state"
+			}			
+		}
+	}
+
+	EffectDesc
+	{		
+		EffectBaseBlueprints
+		{
+			"buildings/effects_medium_base"
+		}	
+		EffectGroup
+		{
+			group "att_out_1"
+			enabled "0"				
+			delay "0"
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/building_arrow"								
+					bone "att_out_arrow"
+				}
+			}
+		}		
+		EffectGroup
+		{
+			group "working"
+			enabled "0"				
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/water_filtering_pool"
+					bone "att_sludge"
+				}			
+			}
+		}		
+		EffectGroup
+		{
+			group "level"
+			enabled "1"
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/level_2"
+					bone "att_level"
+				}
+			}
+		}			
+	}		
+}
+

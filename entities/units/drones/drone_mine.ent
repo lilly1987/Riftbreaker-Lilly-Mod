@@ -1,0 +1,127 @@
+EntityBlueprint
+{
+	name  "units/drones/drone_mine"
+
+	StateMachineDesc
+	{
+		template_name "drone"
+		params
+		{
+			angle_rotation_speed	float:"400"
+
+			hover_height			float:"1"
+			hover_min_height		float:"7"
+
+			owner_movement			string:"land"
+			target_movement			string:"land"
+		}
+	}
+
+	LuaDesc
+	{
+		script "lua/units/air/mine_layer_drone.lua"
+
+		database
+		{
+			plant_blueprint		string:"units/drones/drone_mine_root"
+			plant_marker		string:"units/drones/drone_mine_marker"
+			plant_effect		string:"effects/mech/footstep_pebbles"
+			plant_radius		float:"40"
+		}
+	}
+
+	MeshDesc
+	{
+		mesh "meshes/units/drones/drone_mine.mesh"
+		material "units/drones/drone_mine"
+	}
+
+	TypeDesc
+	{
+		type "drones"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/units/drones/drone_mine"
+	}
+
+	MinimapItemDesc
+	{
+		type	"quad"
+		color 
+		{
+			x "1"
+			y "1"
+			z "1"
+			w "1"
+		}
+		size
+		{
+			x "2"
+			y "2"
+		}
+
+		additional_z_order	"9"
+		visibility			"always"
+	}
+
+	VegetationBendingComponentDesc
+	{
+		bending_power	"2500.0"
+		bending_radius	"4.0"
+	}
+
+	MovementDataComponent
+	{
+		acceleration 			
+		{
+			base 	"30"
+		}		
+		
+		deacceleration 			
+		{
+			base 	"10"
+		}
+		
+		max_speed 				
+		{
+			base 	"200"
+		}
+	}
+
+	EffectDesc
+	{
+		EffectGroup
+		{
+			group "fly"
+			enabled "0"	
+			
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/drone_trail"								
+				}
+			}
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name  "units/drones/drone_mine_marker"
+
+	GridCullerDesc
+	{
+		type	"4"
+
+		Shapes
+		{
+			PhysicsSphereShape
+			{
+				r "5"
+			}
+		}
+	}	
+}

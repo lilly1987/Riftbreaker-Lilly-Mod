@@ -1,0 +1,382 @@
+EntityBlueprint
+{
+	name "buildings/main/cryo_station_lvl_2"
+
+	base_blueprint 			"buildings/main/cryo_station"
+
+	BuildingDesc
+	{
+		buildable			"0"
+		name 				"cryo_station_lvl_2"
+		bp   				"buildings/main/cryo_station_lvl_2"
+		ghost_bp   			"buildings/main/cryo_station_lvl_2_ghost"
+		category 			"main"
+		//type				"pipe"
+		localization_id		"gui/hud/building_name/cryo_station"
+		description			"gui/hud/building_description/cryo_station"
+		menu_icon			"gui/hud/building_icons/cryo_station_lvl_2"
+		//require 			"headquarters"
+		upgrade				"buildings/main/cryo_station_lvl_3"
+		order				"6"
+
+		costs
+		{
+			BuildingCostInfo
+			{
+				name "default"
+				building_time 15
+				building_cost
+				{
+					carbonium 	"200"
+					steel 		"200"
+					titanium	"20"
+				}
+			}
+			BuildingCostInfo
+			{
+				name "survival"
+				building_time 15
+				building_cost
+				{
+					carbonium 	"100"
+					steel 		"50"
+					titanium	"20"
+				}
+			}
+		}
+	}
+
+	LuaDesc
+	{
+		script "lua/buildings/building.lua"
+
+		database
+		{
+			cone_effect			string:"build_cone_3x3"
+			cone_effect_sell	string:"sell_big"
+		}
+	}
+
+	HealthDesc
+	{
+		max_health 					"1000"
+		health 						"1000"
+		regeneration 				"0"
+		regeneration_cooldown 		"0"
+		is_manual 1
+		update_health_uniform 		"1"
+
+		DestructionLevels
+		{
+			DestructionLevel
+			{
+				health 								"66"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"66_destroy"
+				destroyed_state_effect_group 		"66_state"
+			}
+			DestructionLevel
+			{
+				health 								"33"
+				destroy_comp_delay 					"0"
+				destroy_comp_event 					"33_destroy"
+				destroyed_state_effect_group 		"33_state"
+			}
+		}
+	}
+
+	MeshDesc
+	{
+		mesh 		"meshes/buildings/main/cryo_station.mesh"
+		material 	"buildings/main/cryo_station_lvl_2"
+	}
+
+	TypeDesc
+	{
+		type "building|resource"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/buildings/main/cryo_station"
+	}
+
+	AnimationDesc
+	{
+		animations
+		{
+			Anim
+			{
+				animName "working"
+				animTime "0.0"
+			}
+		}
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"static"
+				group_id 			"building"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsCapsuleShape
+					{
+						r "1.45"
+						half_height "2"
+
+						position
+						{
+							x "0.0"
+							y "2"
+							z "0.0"
+						}
+
+						orientation
+						{
+							w "0.7"
+							x "0.0"
+							z "0.7"
+							y "0.0"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	NodeCullerDesc
+	{
+		nav_mesh_cull_type "1"
+		cost_type "building"
+		flow_field_size "0.7"
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+			{
+				x	4
+				y	4
+				z	4
+			}
+		}
+	}
+
+	MinimapItemDesc
+	{
+		type	"quad"
+		color
+		{
+			x "0.5"
+			y "0.5"
+			z "1"
+			w "1"
+		}
+		size
+		{
+			x "3"
+			y "3"
+		}
+
+		visibility			"discovered"
+	}
+
+	FogOfWarRevealerComponentDesc
+	{
+		radius "40"
+	}
+
+	HealthBarDesc
+	{
+		type "2"
+		mode "1"
+	}
+
+	LootDesc
+	{
+		explosion_max_power 	"2000"
+		explosion_min_power 	"1000"
+	}
+
+	DestroyDesc
+	{
+
+		DestroyPatterns
+		{
+			Pair
+			{
+				key "66_destroy"
+				value
+				{
+					explosion_type 			"centered"
+					explosion_max_power 	"6000"
+					explosion_min_power 	"2000"
+					explosion_effect 		"effects/buildings_generic/explosion_medium_random"
+					part_physics_material   "debris_heavy"
+					part_material 			"misc/building_parts_generic"
+					part_prefix 			"meshes/misc/building_medium_parts_generic"
+					part_effect 			"effects/projectiles_and_trails/fire_trail_small_random"
+					part_lifetime "3"
+				}
+			}
+			Pair
+			{
+				key "33_destroy"
+				value
+				{
+					explosion_type 			"centered"
+					explosion_max_power 	"6000"
+					explosion_min_power 	"2000"
+					explosion_effect 		"effects/buildings_generic/explosion_medium_random"
+					part_physics_material   "debris_heavy"
+					part_material 			"misc/building_parts_generic"
+					part_prefix 			"meshes/misc/building_medium_parts_generic"
+					part_effect 			"effects/projectiles_and_trails/fire_trail_small_random"
+					part_lifetime "3"
+				}
+			}
+			Pair
+			{
+				value
+				{
+					explosion_type 			"centered"
+					explosion_max_power 	"6000"
+					explosion_min_power 	"2000"
+					explosion_effect 		"effects/buildings_generic/explosion_big_random"
+					part_physics_material   "debris_heavy"
+					part_material 			"misc/building_parts_generic"
+					part_effect 			"effects/projectiles_and_trails/fire_trail_small_random"
+					part_prefix 			"meshes/misc/building_large_parts_generic"
+					part_lifetime "3"
+				}
+
+				key "default"
+			}
+			Pair
+			{
+				value
+				{
+					explosion_type 			"centered"
+					explosion_max_power 	"6000"
+					explosion_min_power 	"2000"
+					explosion_effect 		"effects/buildings_generic/building_sand_collapse"
+					part_physics_material   "debris_heavy"
+					part_material 			"misc/building_parts_generic"
+					//part_effect 			"effects/projectiles_and_trails/fire_trail_small_random"
+					part_prefix 			"meshes/misc/building_large_parts_generic"
+					part_lifetime "3"
+				}
+
+				key "quicksand"
+			}
+		}
+	}
+
+	EffectDesc
+	{
+		EffectBaseBlueprints
+		{
+			"buildings/effects_small_base"
+		}
+		//////////////////////////////// MISC /////////////////////////////////////////
+
+		EffectGroup
+		{
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_main/cryo_station_energy"
+					offset "0 1 0"
+					scale "1.2 1.2 1.2"
+				}
+			}
+		}
+//////////////////////////////// LEVEL ////////////////////////////////////////
+		EffectGroup
+		{
+			group "level"
+			enabled "1"
+			Effects
+			{
+				Effect
+				{
+					blueprint "effects/buildings_and_machines/level_2"
+					offset "0 6.5 0"
+					scale "0.8 0.8 0.8"
+					bone "att_level"
+				}
+			}
+		}
+	}
+}
+
+EntityBlueprint
+{
+	name "buildings/main/cryo_station_lvl_2_ghost"
+
+	base_blueprint 			"buildings/main/cryo_station_ghost"
+
+	MeshDesc
+	{
+		mesh "meshes/buildings/main/cryo_station.mesh"
+		material "selector/hologram_blue"
+	}
+
+	PhysicsDesc
+	{
+		objects
+		{
+			PhysicsObjectDesc
+			{
+				type 				"kinematic"
+				group_id 			"ghost_building"
+				physics_material 	"default"
+				Shapes
+				{
+					PhysicsSphereShape
+					{
+						r "1.45"
+
+						position
+						{
+							x "0.0"
+							y "1.0"
+							z "0.0"
+						}
+					}
+				}
+			}
+		}
+	}
+
+	GridCullerDesc
+	{
+		Shapes
+		{
+			PhysicsBoxShape
+			{
+				x	4
+				y	4
+				z	4
+			}
+		}
+	}
+
+	DisplayRadiusDesc
+	{
+		max_radius 30
+	}
+
+	EffectDesc
+	{
+
+	}
+}

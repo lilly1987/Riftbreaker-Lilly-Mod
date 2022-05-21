@@ -1,0 +1,195 @@
+import * from "materials/scripts/items_weapons.material"
+
+material items/weapons/mhd_beam_1
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 5 0 0 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 5 0 0 1
+				param_named cBlendColor2 float4 2 0 0 0.5
+			}
+        }
+    }
+}
+
+material items/weapons/mhd_beam_2
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 10 0 0 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 15 0 0 1
+				param_named cBlendColor2 float4 2 0 0 0.5
+			}
+        }
+    }
+}
+
+material items/weapons/mhd_beam_3
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 15 0 0 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 25 0 0 1
+				param_named cBlendColor2 float4 2 0 0 0.5
+			}
+        }
+    }
+}
+
+//cryo_beam desc
+
+material items/weapons/cryo_beam_1
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 0 0 5 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 0 0 5 1
+				param_named cBlendColor2 float4 0 0 2 0.5
+			}
+        }
+    }
+}
+
+material items/weapons/cryo_beam_2
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 0 0 10 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 0 0 15 1
+				param_named cBlendColor2 float4 0 0 2 0.5
+			}
+        }
+    }
+}
+
+material items/weapons/cryo_beam_3
+{
+    transparency_casts_shadows off
+    render_group 61
+
+    technique 0
+    {
+        pass 0
+        {
+            depth_write off
+            scene_blend alpha_blend
+
+            glow 200
+            emissive 0 0 15 5
+
+            vertex_program_ref unlit_fresnel_vp
+			{
+			}
+
+			fragment_program_ref unlit_fresnel_dissolve_fp
+			{
+				param_named cFresnelBias  float 0
+				param_named cFresnelScale float 1
+				param_named cFresnelPower float 2
+
+				param_named cBlendColor1 float4 0 0 25 1
+				param_named cBlendColor2 float4 0 0 2 0.5
+			}
+        }
+    }
+}
