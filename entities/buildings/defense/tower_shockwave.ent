@@ -1,21 +1,21 @@
 EntityBlueprint
 {
-	name  "buildings/defense/tower_flamer"
+	name "buildings/defense/tower_shockwave"
 
 	BuildingDesc
 	{
-		name 				"tower_flamer"
-		bp   				"buildings/defense/tower_flamer"
-		ghost_bp   			"buildings/defense/tower_flamer_ghost"
+		name 				"tower_shockwave"
+		bp   				"buildings/defense/tower_shockwave"
+		ghost_bp   			"buildings/defense/tower_shockwave_ghost"
 		category 			"defense"
-		localization_id		"gui/hud/building_name/tower_flamer"
-		description			"gui/hud/building_description/tower_flamer"
-		menu_icon			"gui/hud/building_icons/tower_flamer"
+		localization_id		"gui/hud/building_name/tower_shockwave"
+		description			"gui/hud/building_description/tower_shockwave"
+		menu_icon			"gui/hud/building_icons/tower_shockwave"
 		require 			"headquarters"
-		order				"7"
+		order				"12"
 		type				"tower"
 		overrides			"tower,wall"
-		upgrade				"buildings/defense/tower_flamer_lvl_2"
+		upgrade				"buildings/defense/tower_shockwave_lvl_2"
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
 
 		costs
@@ -26,12 +26,13 @@ EntityBlueprint
 				building_time 2.5
 				building_cost
 				{
-					carbonium 	"100"
-					steel 		"50"
+					carbonium 	"75"
+					steel 		"150"
 					ai			"1"
+					titanium	"50"
 				}
 			}		
-		}		
+		}			
 	}
 
 	ResourceConverterDesc // must be here for AI
@@ -54,7 +55,7 @@ EntityBlueprint
 
 	LuaDesc
 	{
-		script "lua/buildings/defense/tower.lua"
+		script "lua/buildings/defense/tower_shockwave.lua"
 
 		database
 		{
@@ -98,8 +99,8 @@ EntityBlueprint
 
 	MeshDesc
 	{
-		mesh "meshes/buildings/defense/tower_flamer_lvl_1.mesh"
-		material "buildings/defense/tower_flamer_lvl_1"
+		mesh 		"meshes/buildings/defense/tower_shockwave_lvl_1.mesh"
+		material 	"buildings/defense/tower_shockwave_lvl_1"
 	}
 
 	TypeDesc
@@ -109,11 +110,11 @@ EntityBlueprint
 
 	SkeletonDesc
 	{
-		name "meshes/buildings/defense/tower_flamer_lvl_1"
+		name "meshes/buildings/defense/tower_shockwave_lvl_1"
 	}
 
 	PhysicsDesc
- 	{
+	{
 		objects
 		{
 			PhysicsObjectDesc
@@ -152,12 +153,12 @@ EntityBlueprint
 	{
 		Shapes
 		{
-   			PhysicsBoxShape
-   			{
-    				x	2
-    				y	2
-    				z	2
-   			}
+			PhysicsBoxShape
+			{
+				x	2
+				y	2
+				z	2
+			}
 		}
 	}
 
@@ -176,13 +177,12 @@ EntityBlueprint
 			x "1"
 			y "1"
 		}
-
 		visibility			"always"
 	}
 
 	FogOfWarRevealerComponentDesc
 	{
-		radius "26"
+		radius "40"
 	}
 
 	HealthBarDesc
@@ -207,43 +207,46 @@ EntityBlueprint
 
 	TurretDesc
 	{
-		target "ground_unit_small|ground_unit_medium|ground_unit"
+		target "ground_unit"
 		target_ignore "invisible"
-		speed "150"
+		speed "300"
 		aim_volume "SphericalAimVolume"
 		{
 			range_min "0"
-			range_max "40"
-			aiming_range "45"
+			range_max "26"
+			aiming_range "40"
 		}
 
 		aiming_cooldown "1"
 		aiming_target_time "2"
 		aiming_idle_angle "20"
-		pitch "be_barrel"
-		yaw "be_turret"
+		pitch "att_muzzle"
+		yaw "att_muzzle"
 		check_target_visibility "1"
 		fog_of_war_filtering "1"
 	}
 
-	BeamWeaponComponent
+	BurstWeaponComponent
 	{
 		WeaponMuzzles
 		{
 			WeaponMuzzle
 			{
 				attachment "att_muzzle"
+				recoil_bone  "animation"
+				recoil_time   "1.00"
+				recoil_offset   "3.5"
 			}
 		}
 
 		WeaponAffector
 		{
 			emissive_time "0.35"
-			emissive_factor "35"
+			emissive_factor "60"
 			submesh_idx "1"
 		}
 
-		ammo_blueprint				"buildings/defense/tower_flamer_beam"
+		ammo_blueprint 				"buildings/defense/tower_shockwave_projectile"
 
 		burst_column_spacing 		"0"
 		burst_rate 					"0"
@@ -340,7 +343,7 @@ EntityBlueprint
 			{
 				Effect
 				{
-					blueprint "effects/buildings_and_machines/tower_white_searchlight"
+					blueprint "effects/buildings_and_machines/tower_omni_light"
 					bone "att_muzzle"
 					random_delay "3"
 				}
@@ -351,51 +354,16 @@ EntityBlueprint
 
 EntityBlueprint
 {
-	name  "buildings/defense/tower_flamer_beam"
-
-	base_blueprints
-	{
-		lights/point/fire_orange_big
-		effects/no_lifetime
-	}
-
-	FlameBeamComponent
-	{
-        max_hits					"16"
-        box_count					"3"
-        angle_speed					"180"
-        range_speed					"1.5"
-        particle_velocity_scale 	"0.0125"
-        particle_reference_range	"16"
-
-		collision_3d 				"world_blocker|world|ground_unit|building|hitbox|destructible"
-	}
-
-	ParticleDesc
-	{
-		name    "rift/tower_flamer"
-	}
-
-	SoundDesc
-	{
-		name 		"items/weapons/fluid/flamer_loop"
-		start_name 	"items/weapons/fluid/flamer_start"
-		end_name 	"items/weapons/fluid/flamer_stop"
-	}
-}
-
-EntityBlueprint
-{
-	name  "buildings/defense/tower_flamer_ghost"
+	name "buildings/defense/tower_shockwave_ghost"
 
 	MeshDesc
 	{
-		mesh "meshes/buildings/defense/tower_flamer_lvl_1.mesh"
+		mesh "meshes/buildings/defense/tower_shockwave_lvl_1.mesh"
 		material "selector/hologram_blue"
 	}
 
 	PhysicsDesc
- 	{
+	{
 		objects
 		{
 			PhysicsObjectDesc
@@ -407,9 +375,9 @@ EntityBlueprint
 				{
 					PhysicsBoxShape
 					{
-							x	2
-							y	2
-							z	2
+						x	2
+						y	2
+						z	2
 					}
 				}
 			}
@@ -420,18 +388,56 @@ EntityBlueprint
 	{
 		Shapes
 		{
-   			PhysicsBoxShape
-   			{
-    				x	2
-    				y	2
-    				z	2
-   			}
+			PhysicsBoxShape
+			{
+				x	2
+				y	2
+				z	2
+			}
 		}
 	}
 
 	DisplayRadiusDesc
 	{
-		max_radius 40
+		max_radius 26
 	}
+}
+
+EntityBlueprint
+{
+	name "buildings/defense/tower_shockwave_projectile"
+
+	MeshDesc
+	{
+		mesh 		"meshes/projectiles/rocket_small.mesh"
+		material 	"projectiles/rocket_small"
+	}
+
+	SkeletonDesc
+	{
+		name "meshes/projectiles/rocket_small"
+	}
+
+	VegetationBendingComponentDesc
+	{
+		bending_power	"5000.0"
+		bending_radius	"5.0"
+	}
+	
+	BombAmmoComponent
+	{			
+		explosion_effect 		"effects/weapons_explosive/tower_shockwave_blast"
+
+		DamagePattern
+		{
+			area_damage_speed 		"30"
+		}
+	}	
+
+	LifeTimeDesc
+	{
+		time 		2
+		//type 		"camera"
+	}	
 }
 

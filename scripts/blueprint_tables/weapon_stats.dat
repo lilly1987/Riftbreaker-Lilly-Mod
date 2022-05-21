@@ -1435,8 +1435,8 @@ buildings/defense/tower_flamer
 
 			WeaponStatDef
 			{
-				max_value "16.000"
-				min_value "16.000"
+				max_value "32.000"
+				min_value "32.000"
 				stat_features "BASE_MINMAX|MODABLE"
 				stat_type "BEAM_RANGE"
 			}
@@ -1498,8 +1498,8 @@ buildings/defense/tower_flamer_lvl_2
 
 			WeaponStatDef
 			{
-				max_value "16.000"
-				min_value "16.000"
+				max_value "32.000"
+				min_value "32.000"
 				stat_features "BASE_MINMAX|MODABLE"
 				stat_type "BEAM_RANGE"
 			}
@@ -1569,8 +1569,8 @@ buildings/defense/tower_flamer_lvl_3
 
 			WeaponStatDef
 			{
-				max_value "16.000"
-				min_value "16.000"
+				max_value "32.000"
+				min_value "32.000"
 				stat_features "BASE_MINMAX|MODABLE"
 				stat_type "BEAM_RANGE"
 			}
@@ -4574,8 +4574,8 @@ buildings/defense/tower_shockwave
 
 			WeaponStatDef
 			{
-				max_value "13.000"
-				min_value "13.000"
+				max_value "26.000"
+				min_value "26.000"
 				stat_features "BASE_MINMAX|MODABLE|STATISTIC"
 				stat_type "DAMAGE_SPLASH"
 			}
@@ -4653,8 +4653,8 @@ buildings/defense/tower_shockwave_lvl_2
 
 			WeaponStatDef
 			{
-				max_value "13.000"
-				min_value "13.000"
+				max_value "26.000"
+				min_value "26.000"
 				stat_features "BASE_MINMAX|MODABLE|STATISTIC"
 				stat_type "DAMAGE_SPLASH"
 			}
@@ -4732,8 +4732,8 @@ buildings/defense/tower_shockwave_lvl_3
 
 			WeaponStatDef
 			{
-				max_value "13.000"
-				min_value "13.000"
+				max_value "26.000"
+				min_value "26.000"
 				stat_features "BASE_MINMAX|MODABLE|STATISTIC"
 				stat_type "DAMAGE_SPLASH"
 			}
