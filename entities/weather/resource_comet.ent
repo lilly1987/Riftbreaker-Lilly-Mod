@@ -1,0 +1,22 @@
+EntityBlueprint
+{
+	name  "weather/resource_comet"
+
+	LuaDesc
+	{
+		script "lua/weather/resource_comet.lua"
+	}
+
+	DatabaseDesc
+	{
+		comet_flying_blueprint			string:"weather/comet"
+		comet_dmg_blueprint				string:"weather/comet_dmg"
+		comet_impact_place_blueprint	string:"weather/comet_impact_place"
+		resource						string:"carbon_vein|iron_vein|geothermal_vent|uranium_ore_vein|titanium_vein|cobalt_vein|palladium_vein|water_vein"
+		min_amount						int:"8000"
+		max_amount						int:"14000"
+		min_distance_from_player		int:"64"
+		max_distance_from_player		int:"512"
+	}
+}
+
