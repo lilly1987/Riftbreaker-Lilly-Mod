@@ -58,7 +58,7 @@ MissionDef
         biomes/Lilly\tiles\jungle_custom_canyon_04\jungle_custom_canyon_04.tile
         biomes/Lilly\tiles\jungle_custom_lake01\jungle_custom_lake01.tile 
         { 
-            random_weight	3.0 
+            random_weight	70.0 
         }
         biomes/Lilly\tiles\jungle_custom_meteor_2x2\jungle_custom_meteor_2x2.tile
         biomes/Lilly\tiles\jungle_custom_plains_01\jungle_custom_plains_01.tile
@@ -905,8 +905,8 @@ MissionDef
             min_resources   "5000"
             max_resources   "15000"
 
-            min_spawned_volumes "10"
-            max_spawned_volumes "30"
+            min_spawned_volumes "40"
+            max_spawned_volumes "60"
         }
 		
         ResourceVolume
@@ -918,8 +918,8 @@ MissionDef
             min_resources   "7000"
             max_resources   "18000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }		
 
         ResourceVolume
@@ -929,8 +929,8 @@ MissionDef
             min_resources   "3500"
             max_resources   "10000"
 
-            min_spawned_volumes "5"
-            max_spawned_volumes "30"
+            min_spawned_volumes "20"
+            max_spawned_volumes "60"
         }
 		
         ResourceVolume
@@ -942,8 +942,8 @@ MissionDef
             min_resources   "4500"
             max_resources   "12000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }		
 		
         ResourceVolume
@@ -953,8 +953,8 @@ MissionDef
             min_resources   "6000"
             max_resources   "10000"
 
-            min_spawned_volumes "3"
-            max_spawned_volumes "12"
+            min_spawned_volumes "12"
+            max_spawned_volumes "24"
 			
             //is_infinite        "1"			
         }	
@@ -968,8 +968,8 @@ MissionDef
             min_resources   "6000"
             max_resources   "10000"
 
-            min_spawned_volumes "3"
-            max_spawned_volumes "12"
+            min_spawned_volumes "12"
+            max_spawned_volumes "24"
 			
             //is_infinite        "1"			
         }		
@@ -981,8 +981,8 @@ MissionDef
             min_resources   "1500"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 
         ResourceVolume
@@ -994,8 +994,8 @@ MissionDef
             min_resources   "2000"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 		
 		ResourceVolume
@@ -1005,8 +1005,8 @@ MissionDef
             min_resources   "1500"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 
         ResourceVolume
@@ -1018,8 +1018,8 @@ MissionDef
             min_resources   "2000"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 		
 		ResourceVolume
@@ -1029,8 +1029,8 @@ MissionDef
             min_resources   "1500"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 
         ResourceVolume
@@ -1042,8 +1042,8 @@ MissionDef
             min_resources   "2000"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 		
 		ResourceVolume
@@ -1053,8 +1053,8 @@ MissionDef
             min_resources   "1500"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 
         ResourceVolume
@@ -1066,8 +1066,8 @@ MissionDef
             min_resources   "2000"
             max_resources   "4000"
 
-            min_spawned_volumes "2"
-            max_spawned_volumes "8"
+            min_spawned_volumes "8"
+            max_spawned_volumes "16"
         }	
 		
 		ResourceVolume
@@ -1079,7 +1079,7 @@ MissionDef
 
             is_infinite      "1"
 
-            min_spawned_volumes "2"            
+            min_spawned_volumes "8"            
             max_spawned_volumes "9001"            
         }
 		
@@ -1092,7 +1092,7 @@ MissionDef
 
             is_infinite      "1"
 
-            min_spawned_volumes "2"            
+            min_spawned_volumes "8"            
             max_spawned_volumes "9001"            
         }
 	
@@ -1105,7 +1105,7 @@ MissionDef
 
             is_infinite      "1"
 
-            min_spawned_volumes "2"            
+            min_spawned_volumes "8"            
             max_spawned_volumes "9001"            
         }
     }
