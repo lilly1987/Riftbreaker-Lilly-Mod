@@ -58,6 +58,7 @@ MissionDef
         biomes/Lilly\tiles\jungle_custom_canyon_04\jungle_custom_canyon_04.tile
         biomes/Lilly\tiles\jungle_custom_lake01\jungle_custom_lake01.tile 
         { 
+            min_instances	4
             random_weight	70.0 
         }
         biomes/Lilly\tiles\jungle_custom_meteor_2x2\jungle_custom_meteor_2x2.tile
