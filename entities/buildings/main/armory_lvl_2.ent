@@ -11,13 +11,13 @@ EntityBlueprint
 		bp   				"buildings/main/armory_lvl_2"
 		ghost_bp   			"buildings/main/armory_ghost"
 		category 			"resources"
-		type				"pipe"
+		//type				"pipe"
 		localization_id		"gui/hud/building_name/armory"
 		description			"gui/hud/building_description/armory"
 		menu_icon			"gui/hud/building_icons/weapons_factory_lvl2"
 		order				"2"
-		//limit			    "1"
-		//limit_name			"armory"		
+		limit			    "1"
+		limit_name			"armory"		
 		require 			"headquarters"
 		upgrade				"buildings/main/armory_lvl_3"
 		menu_action 		"crafting"
@@ -65,14 +65,14 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"consumables_manufacturing"
-				value				"1.25"
+				value				"2.2"
 				family				"manufacturing"
 			}	
 			
 			GameplayResource
 			{
 				resource 			"player_ammo_manufacturing"
-				value				"1.25"
+				value				"2.2"
 				family				"manufacturing"
 			}				
 		}	

@@ -14,8 +14,8 @@ EntityBlueprint
 		require 			"headquarters"
 		upgrade				"buildings/resources/ammunition_storage_lvl_2"
 		order				"6"	
-		//limit			    "6"
-		//limit_name			"ammo_storage"			
+		limit			    "6"
+		limit_name			"ammo_storage"			
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"		
 		
 		costs
@@ -40,7 +40,7 @@ EntityBlueprint
 			{
 				group		 "global"
 				subgroup	 "ammo"
-				max 	 	 "10"
+				max 	 	 "2"
 			}
 			Storage
 			{
